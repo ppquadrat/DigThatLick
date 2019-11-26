@@ -32,5 +32,4 @@ You can then perform the following additions:
 9. add solos for ILL with `Ill1000_add_solos.py`
 10. add styles with `add_styles.py`
 11. add links to LOD with `DTLtoLJpeople.py`
-12. Combine the two rdf files (this can be done after step 9), using a text editing software. Remember, this is not a true merge, sessions will be unique since they do not overlap in time, but musicians, tunes, bands, instruments are not matched. Yet for the sake of the interface track filtering the result will work.
-
+12. merge JE and ILL repositories with `merge.py`. Musicians, Bands, Tunes and Instruments are merged by name/title. Sessions and performances are not merged since they do not overlap between JE and ILL. Merging is not necessary for the interface to work, just combining the two files would suffice.
