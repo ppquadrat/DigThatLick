@@ -7,7 +7,7 @@
 
 ##############################################################
 # paths
-RDFfile = "TTL/JE_PyRDF_musicians_leaders_LOD.ttl"
+RDFfile = "TTL/JE_PyRDF_191031_session.ttl"
 RDFnewfile = "TTL/JE_PyRDF_relationships.ttl"
 
 
