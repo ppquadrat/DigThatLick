@@ -17,7 +17,7 @@ You can then perform the following additions:
 - `DTLtoLJpeople.py` will look for musician names in the LinkedJazz repository and add owl:sameAs links for Linked Open Data for those musicians that were found. About 10% of our musicians are covered, the links are mostly to DBpedia, but some are MusicBrainz or Library of Congress.
 - `JEaddLJrelationships.py` will add relationships between musicians based on inference from the sessions information, such as 'knowsOf', 'hasMet' 'playedTogether', 'inBandTogether', 'bandLeaderOf', etc.
 
-## Lord
+## Jazz Discography (Lord)
 `Lord2RDF_V3` creates an RDF repository from the sql database constructed from Lord websites. The sql database is not on GitHub, please get it from [OSF](https://osf.io/cy83b/). Here, again, GPU is highly recommended, it took days on my mac. Additionally, `map_instruments.py`, `DTLtoLJpeople.py` and `JEaddLJrelationships.py` can be applied.
 
 ## 100 years of jazz
@@ -34,3 +34,6 @@ You can then perform the following additions:
 11. add links to LOD with `DTLtoLJpeople.py`
 12. merge JE and ILL repositories with `merge.py`. Musicians, Bands, Tunes and Instruments are merged by name/title. Sessions and performances are not merged since they do not overlap between JE and ILL. Merging is not necessary for the interface to work, just combining the two files would suffice.
 13. patch metadata to resolve missing solo performers with `patch_metadata.py`. 
+
+## DTL1000 dataset
+This dataset mirrors the audio dataset of 1060 tracks created in the Dig That Lick project and used to drive the online [pattern search](https://dig-that-lick.hfm-weimar.de/pattern_search/) and [similarity search](https://dig-that-lick.hfm-weimar.de/similarity_search/) applications. It includes a roughly euqal number of recordings from each decade of jazz; all the tracks have been manually segmented and have solo timestamps, instruments and soloists attached. Also, the styles were annotated in the same way as in the Weimar Jazz Dataset. `dtl1000.py` extracts the relevant triples from a merged "100 years of jazz" turtle file.
