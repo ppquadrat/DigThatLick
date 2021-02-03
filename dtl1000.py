@@ -312,7 +312,7 @@ for tuneURI in g.subjects(RDF.type, MO.MusicalWork):
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.MusicalWork)))) 
 logging.debug("removed %i tunes, remaining %i", count, newnumber)      
 
-oldnumber = len(set(list(g.subjects(RDF.type,MO.Performance)))) 
+oldnumber = len(set(list(g.subjects(RDF.type,MO.Performance)))) - len(set(list(g.subjects(RDF.type,DTL.Session))))
 logging.debug("removing from %i performances", oldnumber) 
 count = 0       
 for performanceURI in g.subjects(RDF.type, MO.Performance):
@@ -322,7 +322,7 @@ for performanceURI in g.subjects(RDF.type, MO.Performance):
             gDTL1000 -= g.triples( (performanceURI, None, None) )
             gDTL1000 -= g.triples( (None, None, performanceURI) )
             count+=1
-newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Performance)))) 
+newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Performance)))) - len(set(list(gDTL1000.subjects(RDF.type,DTL.Session))))
 logging.debug("removed %i performances, remaining %i", count, newnumber)      
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.Signal))))   
