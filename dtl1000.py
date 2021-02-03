@@ -146,28 +146,27 @@ def get_releaseevent_fprints(uri):
 
 def get_label_fprints(uri):
     fprints = []
-    for releaseevent in g.objects(uri, MO.published):
+    for releaseevent in g.objects(uri, DTL.published):
         fprints = fprints + get_releaseevent_fprints(releaseevent)       
     return(list(set(fprints)))
 
 ##############################################################
 #%% for each class, if their fprint list does not overlap with dtl1000_fprints
 # remove their subgraphs from the graph 
-
+    
 logging.debug("original merged graph has %i triples", len(g))
 
-oldnumber = len(set(list(g.subjects(RDF.type,MO.label)))) 
+oldnumber = len(set(list(g.subjects(RDF.type,MO.Label)))) 
 logging.debug("removing from %i labels", oldnumber)
 count = 0
-for labelURI in g.subjects(RDF.type, MO.label):
+for labelURI in g.subjects(RDF.type, MO.Label):
     label_fprints = get_label_fprints(labelURI)
     if len(set(label_fprints) & set(dtl1000_fprints)) == 0:
         gDTL1000 -= g.triples( (labelURI, None, None) )
+        gDTL1000 -= g.triples( (None, None, labelURI) )
         count+=1
-newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.label))))
+newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Label))))
 logging.debug("removed %i labels, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.ReleaseEvent)))) 
 logging.debug("removing from %i release events", oldnumber)  
@@ -176,11 +175,10 @@ for releaseeventURI in g.subjects(RDF.type, MO.ReleaseEvent):
     revent_fprints = get_releaseevent_fprints(releaseeventURI)
     if len(set(revent_fprints) & set(dtl1000_fprints)) == 0:
         gDTL1000 -= g.triples( (releaseeventURI, None, None) )
+        gDTL1000 -= g.triples( (None, None, releaseeventURI) )
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.ReleaseEvent)))) 
 logging.debug("removed %i release events, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.SignalGroup)))) 
 logging.debug("removing from %i albums", oldnumber)      
@@ -189,11 +187,10 @@ for albumURI in g.subjects(RDF.type, MO.SignalGroup):
     album_fprints = get_album_fprints(albumURI)
     if len(set(album_fprints) & set(dtl1000_fprints)) == 0:
         gDTL1000 -= g.triples( (albumURI, None, None) )
+        gDTL1000 -= g.triples( (None, None, albumURI) )
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.SignalGroup)))) 
-logging.debug("removed %i albums, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
+logging.debug("removed %i albums, remaining %i", count, newnumber)         
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.Release)))) 
 logging.debug("removing from %i releases", oldnumber) 
@@ -202,11 +199,10 @@ for releaseURI in g.subjects(RDF.type, MO.Release):
     release_fprints = get_release_fprints(releaseURI)
     if len(set(release_fprints) & set(dtl1000_fprints)) == 0:
         gDTL1000 -= g.triples( (releaseURI, None, None) )
+        gDTL1000 -= g.triples( (None, None, releaseURI) )
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Release)))) 
 logging.debug("removed %i releases, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.Record)))) 
 logging.debug("removing from %i media", oldnumber)  
@@ -215,11 +211,10 @@ for mediumURI in g.subjects(RDF.type, MO.Record):
     medium_fprints = get_medium_fprints(mediumURI)
     if len(set(medium_fprints) & set(dtl1000_fprints)) == 0:
         gDTL1000 -= g.triples( (mediumURI, None, None) )
+        gDTL1000 -= g.triples( (None, None, mediumURI) )
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Record)))) 
 logging.debug("removed %i media, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.Track)))) 
 logging.debug("removing from %i tracks", oldnumber)   
@@ -228,12 +223,10 @@ for trackURI in g.subjects(RDF.type, MO.Track):
     track_fprints = get_track_fprints(trackURI)
     if len(set(track_fprints) & set(dtl1000_fprints)) == 0:
         gDTL1000 -= g.triples( (trackURI, None, None) )
+        gDTL1000 -= g.triples( (None, None, trackURI) )
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Track)))) 
 logging.debug("removed %i tracks, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
-
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.MusicGroup)))) 
 logging.debug("removing from %i bands", oldnumber)
@@ -246,21 +239,18 @@ for bandURI in g.subjects(RDF.type, MO.MusicGroup):
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.MusicGroup)))) 
 logging.debug("removed %i bands, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,DTL.Session)))) 
 logging.debug("removing from %i sessions", oldnumber)  
 count = 0      
 for sessionURI in g.subjects(RDF.type, DTL.Session):
-    session_fprints = get_session_fprints(sessionURI)
-    if len(set(session_fprints) & set(dtl1000_fprints)) == 0:
-        gDTL1000 -= g.triples( (sessionURI, None, None) )
-        count+=1
+       session_fprints = get_session_fprints(sessionURI)
+       if len(set(session_fprints) & set(dtl1000_fprints)) == 0:
+            gDTL1000 -= g.triples( (sessionURI, None, None) )
+            gDTL1000 -= g.triples( (None, None, sessionURI) )
+            count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,DTL.Session)))) 
 logging.debug("removed %i sessions, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.Instrument)))) 
 logging.debug("removing from %i instruments", oldnumber)  
@@ -273,8 +263,6 @@ for instrumentURI in g.subjects(RDF.type, MO.Instrument):
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Instrument)))) 
 logging.debug("removed %i instruments, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.MusicArtist)))) 
 logging.debug("removing from %i musicians", oldnumber)      
@@ -286,9 +274,7 @@ for musicianURI in g.subjects(RDF.type, MO.MusicArtist):
         gDTL1000 -= g.triples( (None, None, musicianURI) )
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.MusicArtist)))) 
-logging.debug("removed %i musicians, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
+logging.debug("removed %i musicians, remaining %i", count, newnumber)        
 
 oldnumber = len(set(list(g.subjects(RDF.type,DTL.Performer))))       
 logging.debug("removing from %i performers", oldnumber)  
@@ -301,9 +287,7 @@ for performerURI in g.subjects(RDF.type, DTL.Performer):
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,DTL.Performer)))) 
 logging.debug("removed %i performers, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
-
+  
 oldnumber = len(set(list(g.subjects(RDF.type,DTL.SoloPerformance)))) 
 logging.debug("removing from %i solos", oldnumber)   
 count = 0 
@@ -315,8 +299,6 @@ for soloURI in g.subjects(RDF.type, DTL.SoloPerformance):
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,DTL.SoloPerformance)))) 
 logging.debug("removed %i solos, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.MusicalWork)))) 
 logging.debug("removing from %i tunes", oldnumber)       
@@ -329,22 +311,19 @@ for tuneURI in g.subjects(RDF.type, MO.MusicalWork):
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.MusicalWork)))) 
 logging.debug("removed %i tunes, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.Performance)))) 
 logging.debug("removing from %i performances", oldnumber) 
 count = 0       
 for performanceURI in g.subjects(RDF.type, MO.Performance):
-    performance_fprints = get_performance_fprints(performanceURI)
-    if len(set(performance_fprints) & set(dtl1000_fprints)) == 0:
-        gDTL1000 -= g.triples( (performanceURI, None, None) )
-        gDTL1000 -= g.triples( (None, None, performanceURI) )
-        count+=1
+    if (performanceURI, RDF.type, DTL.Session) not in g:
+        performance_fprints = get_performance_fprints(performanceURI)
+        if len(set(performance_fprints) & set(dtl1000_fprints)) == 0:
+            gDTL1000 -= g.triples( (performanceURI, None, None) )
+            gDTL1000 -= g.triples( (None, None, performanceURI) )
+            count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Performance)))) 
 logging.debug("removed %i performances, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 oldnumber = len(set(list(g.subjects(RDF.type,MO.Signal))))   
 logging.debug("removing from %i signals", oldnumber)       
@@ -353,11 +332,10 @@ for signalURI in g.subjects(RDF.type, MO.Signal):
     signal_fprint = g.value(signalURI, DTL.fingerprint_short)
     if dtl1000_fprints.count(str(signal_fprint)) == 0:
         gDTL1000 -= g.triples( (signalURI, None, None) )
+        gDTL1000 -= g.triples( (None, None, signalURI) )
         count+=1
 newnumber = len(set(list(gDTL1000.subjects(RDF.type,MO.Signal)))) 
 logging.debug("removed %i signals, remaining %i", count, newnumber)      
-if newnumber != oldnumber - count:
-    logging.warning("numbers don't add up!!!")
 
 ##############################################################
 #%%
