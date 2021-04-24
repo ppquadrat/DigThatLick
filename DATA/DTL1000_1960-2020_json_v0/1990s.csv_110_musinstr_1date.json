@@ -3753,6 +3753,12 @@
             "audioid": "AQALIomyKFGiKEOeHQf-4_HQMFfwJEcS",
             "musician_instrument": [
                 {
+                    "musician_name": "Harry Edison",
+                    "musician_id": 0,
+                    "instrument_name": "tp",
+                    "instrument_id": 14
+                },
+                {
                     "musician_name": "Bucky Pizzarelli",
                     "musician_id": 5160,
                     "instrument_name": "g",
@@ -4137,7 +4143,7 @@
                     "instrument_id": 98
                 },
                 {
-                    "musician_name": " Thompson",
+                    "musician_name": "T.J. Thompson",
                     "musician_id": 140465,
                     "instrument_name": "p",
                     "instrument_id": 2
@@ -5928,42 +5934,6 @@
             "time_location": "Live \"University Hitomi Memorial Hall\", Tokyo, Japan, February 14, 1990",
             "track_id": 201280
         },
-        "_3960": {
-            "album": "Sound Of Love",
-            "labelid": "Winter_Winter_WW-910-200-2",
-            "trackname": "Good morning heartache",
-            "release_id": "173835",
-            "session_full_id": "M11445.10",
-            "session_id": "69091",
-            "tune_id": "3960",
-            "filename": "../illinois_audio/Dig That Lick/Winter_Winter_WW-910-200-2/1 Good Morning Heartache.aiff",
-            "match_cost": 0,
-            "title": "Good morning heartache",
-            "segmentid": "AQAJJ2mkREla6EdhHf3xQ16U40aP5siH_0.00.00.000000-0.04.52.800000\"",
-            "audioid": "AQAJJ2mkREla6EdhHf3xQ16U40aP5siH",
-            "musician_instrument": [
-                {
-                    "musician_name": "Paul Motian",
-                    "musician_id": 6693,
-                    "instrument_name": "d",
-                    "instrument_id": 5
-                },
-                {
-                    "musician_name": "Joe Lovano",
-                    "musician_id": 923,
-                    "instrument_name": "ts",
-                    "instrument_id": 9
-                },
-                {
-                    "musician_name": "Bill Frisell",
-                    "musician_id": 9463,
-                    "instrument_name": "g",
-                    "instrument_id": 3
-                }
-            ],
-            "time_location": "Live \"Village Vanguard\", New York, June 7-10, 1995",
-            "track_id": 735582
-        },
         "_18413": {
             "album": "Tokyo Music Joy '90",
             "labelid": "DIW_842E",
@@ -6780,438 +6750,6 @@
             "time_location": "New York, October 10 & 11, 1994",
             "track_id": 281002
         },
-        "_63718": {
-            "album": "Sueno",
-            "labelid": "Intuition_INT-3011-2",
-            "trackname": "Humpty Dumpty",
-            "release_id": "169425",
-            "session_full_id": "P335.10",
-            "session_id": "35979",
-            "tune_id": "63718",
-            "filename": "../illinois_audio/Dig That Lick/Intuition_INT-3011-2/5 Humpty Dumpty.aiff",
-            "match_cost": 0,
-            "title": "Humpty Dumpty",
-            "segmentid": "AQAHvosWkUfzI_wT_CN0HXV6NIfyTAUe_0.00.00.000000-0.04.08.040000\"",
-            "audioid": "AQAHvosWkUfzI_wT_CN0HXV6NIfyTAUe",
-            "musician_instrument": [
-                {
-                    "musician_name": "Eddie Palmieri",
-                    "musician_id": 80967,
-                    "instrument_name": "p",
-                    "instrument_id": 2
-                },
-                {
-                    "musician_name": "Robby Ameen",
-                    "musician_id": 51725,
-                    "instrument_name": "d",
-                    "instrument_id": 5
-                },
-                {
-                    "musician_name": "David Sanborn",
-                    "musician_id": 7367,
-                    "instrument_name": "as",
-                    "instrument_id": 10
-                },
-                {
-                    "musician_name": "Francisco Aguabella",
-                    "musician_id": 3714,
-                    "instrument_name": "cga",
-                    "instrument_id": 121
-                },
-                {
-                    "musician_name": "Lewis Kahn",
-                    "musician_id": 50837,
-                    "instrument_name": "tb",
-                    "instrument_id": 1
-                },
-                {
-                    "musician_name": "Alfredo Triff",
-                    "musician_id": 80130,
-                    "instrument_name": "vln",
-                    "instrument_id": 18
-                },
-                {
-                    "musician_name": "Anthony Carillo",
-                    "musician_id": 80136,
-                    "instrument_name": "bgo",
-                    "instrument_id": 44
-                },
-                {
-                    "musician_name": "Francisco Aguabella",
-                    "musician_id": 3714,
-                    "instrument_name": "bata-d",
-                    "instrument_id": 194
-                },
-                {
-                    "musician_name": "Melvin Gibbs",
-                    "musician_id": 19758,
-                    "instrument_name": "b",
-                    "instrument_id": 4
-                },
-                {
-                    "musician_name": "Jerry Medina",
-                    "musician_id": 7802,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Milton Cardona",
-                    "musician_id": 1077,
-                    "instrument_name": "bata-d",
-                    "instrument_id": 194
-                },
-                {
-                    "musician_name": "Charles Sepulveda",
-                    "musician_id": 117920,
-                    "instrument_name": "tp",
-                    "instrument_id": 14
-                },
-                {
-                    "musician_name": "Lewis Kahn",
-                    "musician_id": 50837,
-                    "instrument_name": "vln",
-                    "instrument_id": 18
-                },
-                {
-                    "musician_name": "Ray Gomez",
-                    "musician_id": 117921,
-                    "instrument_name": "g",
-                    "instrument_id": 3
-                },
-                {
-                    "musician_name": "Charles Cotto",
-                    "musician_id": 117911,
-                    "instrument_name": "timb",
-                    "instrument_id": 138
-                },
-                {
-                    "musician_name": "Milton Cardona",
-                    "musician_id": 1077,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Jerry Medina",
-                    "musician_id": 7802,
-                    "instrument_name": "soneos",
-                    "instrument_id": 2868
-                },
-                {
-                    "musician_name": "Victoria Webb",
-                    "musician_id": 117913,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Luis Vergara",
-                    "musician_id": 117906,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Luis Vergara",
-                    "musician_id": 117906,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Augusto Onna",
-                    "musician_id": 117912,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                }
-            ],
-            "time_location": "New York, 1992",
-            "track_id": 325214
-        },
-        "_104002": {
-            "album": "Sueno",
-            "labelid": "Intuition_INT-3011-2",
-            "trackname": "Azucar",
-            "release_id": "169425",
-            "session_full_id": "P335.10",
-            "session_id": "35979",
-            "tune_id": "104002",
-            "filename": "../illinois_audio/Dig That Lick/Intuition_INT-3011-2/2 Azucar.aiff",
-            "match_cost": 0,
-            "title": "Azucar",
-            "segmentid": "AQANwUmSaIoeJUmg5cFzpFv14A2-nPjg_0.00.00.000000-0.07.18.573333\"",
-            "audioid": "AQANwUmSaIoeJUmg5cFzpFv14A2-nPjg",
-            "musician_instrument": [
-                {
-                    "musician_name": "Eddie Palmieri",
-                    "musician_id": 80967,
-                    "instrument_name": "p",
-                    "instrument_id": 2
-                },
-                {
-                    "musician_name": "Robby Ameen",
-                    "musician_id": 51725,
-                    "instrument_name": "d",
-                    "instrument_id": 5
-                },
-                {
-                    "musician_name": "David Sanborn",
-                    "musician_id": 7367,
-                    "instrument_name": "as",
-                    "instrument_id": 10
-                },
-                {
-                    "musician_name": "Francisco Aguabella",
-                    "musician_id": 3714,
-                    "instrument_name": "cga",
-                    "instrument_id": 121
-                },
-                {
-                    "musician_name": "Lewis Kahn",
-                    "musician_id": 50837,
-                    "instrument_name": "tb",
-                    "instrument_id": 1
-                },
-                {
-                    "musician_name": "Alfredo Triff",
-                    "musician_id": 80130,
-                    "instrument_name": "vln",
-                    "instrument_id": 18
-                },
-                {
-                    "musician_name": "Anthony Carillo",
-                    "musician_id": 80136,
-                    "instrument_name": "bgo",
-                    "instrument_id": 44
-                },
-                {
-                    "musician_name": "Francisco Aguabella",
-                    "musician_id": 3714,
-                    "instrument_name": "bata-d",
-                    "instrument_id": 194
-                },
-                {
-                    "musician_name": "Melvin Gibbs",
-                    "musician_id": 19758,
-                    "instrument_name": "b",
-                    "instrument_id": 4
-                },
-                {
-                    "musician_name": "Jerry Medina",
-                    "musician_id": 7802,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Milton Cardona",
-                    "musician_id": 1077,
-                    "instrument_name": "bata-d",
-                    "instrument_id": 194
-                },
-                {
-                    "musician_name": "Charles Sepulveda",
-                    "musician_id": 117920,
-                    "instrument_name": "tp",
-                    "instrument_id": 14
-                },
-                {
-                    "musician_name": "Lewis Kahn",
-                    "musician_id": 50837,
-                    "instrument_name": "vln",
-                    "instrument_id": 18
-                },
-                {
-                    "musician_name": "Ray Gomez",
-                    "musician_id": 117921,
-                    "instrument_name": "g",
-                    "instrument_id": 3
-                },
-                {
-                    "musician_name": "Charles Cotto",
-                    "musician_id": 117911,
-                    "instrument_name": "timb",
-                    "instrument_id": 138
-                },
-                {
-                    "musician_name": "Milton Cardona",
-                    "musician_id": 1077,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Jerry Medina",
-                    "musician_id": 7802,
-                    "instrument_name": "soneos",
-                    "instrument_id": 2868
-                },
-                {
-                    "musician_name": "Victoria Webb",
-                    "musician_id": 117913,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Luis Vergara",
-                    "musician_id": 117906,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Luis Vergara",
-                    "musician_id": 117906,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Augusto Onna",
-                    "musician_id": 117912,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                }
-            ],
-            "time_location": "New York, 1992",
-            "track_id": 325211
-        },
-        "_245171": {
-            "album": "Sueno",
-            "labelid": "Intuition_INT-3011-2",
-            "trackname": "Just a little dream",
-            "release_id": "169425",
-            "session_full_id": "P335.10",
-            "session_id": "35979",
-            "tune_id": "245171",
-            "filename": "../illinois_audio/Dig That Lick/Intuition_INT-3011-2/3 Just A Little Dream.aiff",
-            "match_cost": 0,
-            "title": "Just a little dream",
-            "segmentid": "AQANXkpGaeGk4OyMF72CZo8S4so_IdF3_0.00.00.000000-0.07.06.333333\"",
-            "audioid": "AQANXkpGaeGk4OyMF72CZo8S4so_IdF3",
-            "musician_instrument": [
-                {
-                    "musician_name": "Eddie Palmieri",
-                    "musician_id": 80967,
-                    "instrument_name": "p",
-                    "instrument_id": 2
-                },
-                {
-                    "musician_name": "Robby Ameen",
-                    "musician_id": 51725,
-                    "instrument_name": "d",
-                    "instrument_id": 5
-                },
-                {
-                    "musician_name": "David Sanborn",
-                    "musician_id": 7367,
-                    "instrument_name": "as",
-                    "instrument_id": 10
-                },
-                {
-                    "musician_name": "Francisco Aguabella",
-                    "musician_id": 3714,
-                    "instrument_name": "cga",
-                    "instrument_id": 121
-                },
-                {
-                    "musician_name": "Lewis Kahn",
-                    "musician_id": 50837,
-                    "instrument_name": "tb",
-                    "instrument_id": 1
-                },
-                {
-                    "musician_name": "Alfredo Triff",
-                    "musician_id": 80130,
-                    "instrument_name": "vln",
-                    "instrument_id": 18
-                },
-                {
-                    "musician_name": "Anthony Carillo",
-                    "musician_id": 80136,
-                    "instrument_name": "bgo",
-                    "instrument_id": 44
-                },
-                {
-                    "musician_name": "Francisco Aguabella",
-                    "musician_id": 3714,
-                    "instrument_name": "bata-d",
-                    "instrument_id": 194
-                },
-                {
-                    "musician_name": "Melvin Gibbs",
-                    "musician_id": 19758,
-                    "instrument_name": "b",
-                    "instrument_id": 4
-                },
-                {
-                    "musician_name": "Jerry Medina",
-                    "musician_id": 7802,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Milton Cardona",
-                    "musician_id": 1077,
-                    "instrument_name": "bata-d",
-                    "instrument_id": 194
-                },
-                {
-                    "musician_name": "Charles Sepulveda",
-                    "musician_id": 117920,
-                    "instrument_name": "tp",
-                    "instrument_id": 14
-                },
-                {
-                    "musician_name": "Lewis Kahn",
-                    "musician_id": 50837,
-                    "instrument_name": "vln",
-                    "instrument_id": 18
-                },
-                {
-                    "musician_name": "Ray Gomez",
-                    "musician_id": 117921,
-                    "instrument_name": "g",
-                    "instrument_id": 3
-                },
-                {
-                    "musician_name": "Charles Cotto",
-                    "musician_id": 117911,
-                    "instrument_name": "timb",
-                    "instrument_id": 138
-                },
-                {
-                    "musician_name": "Milton Cardona",
-                    "musician_id": 1077,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Jerry Medina",
-                    "musician_id": 7802,
-                    "instrument_name": "soneos",
-                    "instrument_id": 2868
-                },
-                {
-                    "musician_name": "Victoria Webb",
-                    "musician_id": 117913,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Luis Vergara",
-                    "musician_id": 117906,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Luis Vergara",
-                    "musician_id": 117906,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                },
-                {
-                    "musician_name": "Augusto Onna",
-                    "musician_id": 117912,
-                    "instrument_name": "coro",
-                    "instrument_id": 614
-                }
-            ],
-            "time_location": "New York, 1992",
-            "track_id": 325212
-        },
         "_245172": {
             "album": "Sueno",
             "labelid": "Intuition_INT-3011-2",
@@ -7500,36 +7038,6 @@
             "time_location": "New York, 1992",
             "track_id": 325216
         },
-        "_138689": {
-            "album": "Points Of View",
-            "labelid": "Just_Looking_JLP-03",
-            "trackname": "Gee",
-            "release_id": "127691",
-            "session_full_id": "S5676",
-            "session_id": "39024",
-            "tune_id": "138689",
-            "filename": "../illinois_audio/Dig That Lick/Just_Looking_JLP-03/1 Red.aiff",
-            "match_cost": 2,
-            "title": "Gee",
-            "segmentid": "AQAKdFq2LEmoJAr642SwHzGVK9C2HNyJ_0.00.00.000000-0.05.33.960000",
-            "audioid": "AQAKdFq2LEmoJAr642SwHzGVK9C2HNyJ",
-            "musician_instrument": [
-                {
-                    "musician_name": "Harry Sheppard",
-                    "musician_id": 34295,
-                    "instrument_name": "vib",
-                    "instrument_id": 69
-                },
-                {
-                    "musician_name": "Mike Sunjka",
-                    "musician_id": 132188,
-                    "instrument_name": "g",
-                    "instrument_id": 3
-                }
-            ],
-            "time_location": "Houston, Texas, 1992",
-            "track_id": 361080
-        },
         "_12850": {
             "album": "Plain Old Joe",
             "labelid": "Knitting_Factory_KFW-139",
@@ -7581,7 +7089,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -7647,49 +7155,49 @@
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cga",
                     "instrument_id": 121
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cherimia",
                     "instrument_id": 3098
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "berimbau",
                     "instrument_id": 409
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "gongs",
                     "instrument_id": 169
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "bells",
                     "instrument_id": 97
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "fishbowl",
                     "instrument_id": 3100
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "backing vcl",
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "saga",
                     "instrument_id": 3101
@@ -7749,7 +7257,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -7815,49 +7323,49 @@
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cga",
                     "instrument_id": 121
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cherimia",
                     "instrument_id": 3098
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "berimbau",
                     "instrument_id": 409
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "gongs",
                     "instrument_id": 169
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "bells",
                     "instrument_id": 97
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "fishbowl",
                     "instrument_id": 3100
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "backing vcl",
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "saga",
                     "instrument_id": 3101
@@ -7917,7 +7425,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -7983,49 +7491,49 @@
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cga",
                     "instrument_id": 121
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cherimia",
                     "instrument_id": 3098
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "berimbau",
                     "instrument_id": 409
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "gongs",
                     "instrument_id": 169
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "bells",
                     "instrument_id": 97
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "fishbowl",
                     "instrument_id": 3100
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "backing vcl",
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "saga",
                     "instrument_id": 3101
@@ -8085,7 +7593,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -8151,49 +7659,49 @@
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cga",
                     "instrument_id": 121
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cherimia",
                     "instrument_id": 3098
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "berimbau",
                     "instrument_id": 409
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "gongs",
                     "instrument_id": 169
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "bells",
                     "instrument_id": 97
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "fishbowl",
                     "instrument_id": 3100
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "backing vcl",
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "saga",
                     "instrument_id": 3101
@@ -8253,7 +7761,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -8319,49 +7827,49 @@
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cga",
                     "instrument_id": 121
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cherimia",
                     "instrument_id": 3098
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "berimbau",
                     "instrument_id": 409
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "gongs",
                     "instrument_id": 169
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "bells",
                     "instrument_id": 97
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "fishbowl",
                     "instrument_id": 3100
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "backing vcl",
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "saga",
                     "instrument_id": 3101
@@ -8421,7 +7929,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -8487,49 +7995,49 @@
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cga",
                     "instrument_id": 121
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cherimia",
                     "instrument_id": 3098
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "berimbau",
                     "instrument_id": 409
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "gongs",
                     "instrument_id": 169
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "bells",
                     "instrument_id": 97
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "fishbowl",
                     "instrument_id": 3100
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "backing vcl",
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "saga",
                     "instrument_id": 3101
@@ -8589,7 +8097,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -8655,49 +8163,49 @@
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cga",
                     "instrument_id": 121
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "cherimia",
                     "instrument_id": 3098
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "berimbau",
                     "instrument_id": 409
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "gongs",
                     "instrument_id": 169
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "bells",
                     "instrument_id": 97
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "fishbowl",
                     "instrument_id": 3100
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "backing vcl",
                     "instrument_id": 96
                 },
                 {
-                    "musician_name": " Rodriguez",
+                    "musician_name": "E.J. Rodriguez",
                     "musician_id": 428,
                     "instrument_name": "saga",
                     "instrument_id": 3101
@@ -9318,48 +8826,6 @@
             "time_location": "New York, September 6 & 7, 1996",
             "track_id": 367457
         },
-        "_346200": {
-            "album": "Good Kitty",
-            "labelid": "Knitting_Factory_KFW-178",
-            "trackname": "G.K. #8",
-            "release_id": "168888",
-            "session_full_id": "K4110.20",
-            "session_id": "39846",
-            "tune_id": "346200",
-            "filename": "../illinois_audio/Dig That Lick/Knitting_Factory_KFW-178/2 G.K. #4.aiff",
-            "match_cost": 1,
-            "title": "G.K. #8",
-            "segmentid": "AQAJMkqShEkSRRKFSDkSzHnxO2g0PtiJ_0.00.00.000000-0.04.54.053333\"",
-            "audioid": "AQAJMkqShEkSRRKFSDkSzHnxO2g0PtiJ",
-            "musician_instrument": [
-                {
-                    "musician_name": "Chris Speed",
-                    "musician_id": 27173,
-                    "instrument_name": "ts",
-                    "instrument_id": 9
-                },
-                {
-                    "musician_name": "Michael Sarin",
-                    "musician_id": 5312,
-                    "instrument_name": "d",
-                    "instrument_id": 5
-                },
-                {
-                    "musician_name": "Chris Speed",
-                    "musician_id": 27173,
-                    "instrument_name": "cl",
-                    "instrument_id": 8
-                },
-                {
-                    "musician_name": "Briggan Krauss",
-                    "musician_id": 16269,
-                    "instrument_name": "as",
-                    "instrument_id": 10
-                }
-            ],
-            "time_location": "New York, September 6 & 7, 1996",
-            "track_id": 367458
-        },
         "_346201": {
             "album": "Good Kitty",
             "labelid": "Knitting_Factory_KFW-178",
@@ -9499,7 +8965,32 @@
             "title": "G.K. live",
             "segmentid": "AQALy8qYVIqUJAl66UKYR3nwQkc-0UdD_0.00.00.000000-0.06.16.453333\"",
             "audioid": "AQALy8qYVIqUJAl66UKYR3nwQkc-0UdD",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Chris Speed",
+                    "musician_id": 27173,
+                    "instrument_name": "ts",
+                    "instrument_id": 9
+                },
+                {
+                    "musician_name": "Michael Sarin",
+                    "musician_id": 5312,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Chris Speed",
+                    "musician_id": 27173,
+                    "instrument_name": "cl",
+                    "instrument_id": 8
+                },
+                {
+                    "musician_name": "Briggan Krauss",
+                    "musician_id": 16269,
+                    "instrument_name": "as",
+                    "instrument_id": 10
+                }
+			],
             "time_location": "Live \"Knitting Factory\", New York, October 17, 1996",
             "track_id": 367462
         },
@@ -10300,48 +9791,6 @@
             ],
             "time_location": "Boston, MA, October 17 & 18, 1996",
             "track_id": 686414
-        },
-        "_905": {
-            "album": "Lust Corner",
-            "labelid": "Winter_Winter_WW-910-200-2",
-            "trackname": "Body and soul",
-            "release_id": "1643",
-            "session_full_id": "A1642",
-            "session_id": "69218",
-            "tune_id": "905",
-            "filename": "../illinois_audio/Dig That Lick/Winter_Winter_WW-910-200-2/11 Body And Soul.aiff",
-            "match_cost": 1,
-            "title": "Body and soul",
-            "segmentid": "AQAKzkmoZVGihMPzINzgHL2OHw96vDeO_0.00.00.000000-0.05.45.173333\"",
-            "audioid": "AQAKzkmoZVGihMPzINzgHL2OHw96vDeO",
-            "musician_instrument": [
-                {
-                    "musician_name": "Eugene Chadbourne",
-                    "musician_id": 4123,
-                    "instrument_name": "el-g",
-                    "instrument_id": 15
-                },
-                {
-                    "musician_name": "Eugene Chadbourne",
-                    "musician_id": 4123,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Eugene Chadbourne",
-                    "musician_id": 4123,
-                    "instrument_name": "bj",
-                    "instrument_id": 17
-                },
-                {
-                    "musician_name": "Noel Akchote",
-                    "musician_id": 4109,
-                    "instrument_name": "el-g",
-                    "instrument_id": 15
-                }
-            ],
-            "time_location": "Hanover, Germany, June 14, 1996",
-            "track_id": 736519
         },
         "_1554": {
             "album": "Mr. Mellow",
@@ -12950,7 +12399,7 @@
                     "instrument_id": 72
                 },
                 {
-                    "musician_name": " Lewis",
+                    "musician_name": "J.T. Lewis",
                     "musician_id": 40803,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -13010,7 +12459,7 @@
                     "instrument_id": 72
                 },
                 {
-                    "musician_name": " Lewis",
+                    "musician_name": "J.T. Lewis",
                     "musician_id": 40803,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -13070,7 +12519,7 @@
                     "instrument_id": 72
                 },
                 {
-                    "musician_name": " Lewis",
+                    "musician_name": "J.T. Lewis",
                     "musician_id": 40803,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -13130,7 +12579,7 @@
                     "instrument_id": 72
                 },
                 {
-                    "musician_name": " Lewis",
+                    "musician_name": "J.T. Lewis",
                     "musician_id": 40803,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -13190,7 +12639,7 @@
                     "instrument_id": 72
                 },
                 {
-                    "musician_name": " Lewis",
+                    "musician_name": "J.T. Lewis",
                     "musician_id": 40803,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -13250,7 +12699,7 @@
                     "instrument_id": 72
                 },
                 {
-                    "musician_name": " Lewis",
+                    "musician_name": "J.T. Lewis",
                     "musician_id": 40803,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -13310,7 +12759,7 @@
                     "instrument_id": 72
                 },
                 {
-                    "musician_name": " Lewis",
+                    "musician_name": "J.T. Lewis",
                     "musician_id": 40803,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -13730,7 +13179,7 @@
                     "instrument_id": 2
                 }
             ],
-            "time_location": "New Orleans, LA, & New York, June & November 1991",
+            "time_location": "New Orleans, LA & New York, June & November 1991",
             "track_id": 585297
         },
         "_4414": {
@@ -14540,7 +13989,7 @@
                     "instrument_id": 4
                 }
             ],
-            "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+            "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
             "track_id": 535054
         },
         "_82488": {
@@ -14600,7 +14049,7 @@
                     "instrument_id": 4
                 }
             ],
-            "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+            "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
             "track_id": 535058
         },
         "_94622": {
@@ -14660,7 +14109,7 @@
                     "instrument_id": 4
                 }
             ],
-            "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+            "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
             "track_id": 535053
         },
         "_245920": {
@@ -14720,7 +14169,7 @@
                     "instrument_id": 4
                 }
             ],
-            "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+            "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
             "track_id": 535060
         },
         "_307471": {
@@ -14780,7 +14229,7 @@
                     "instrument_id": 4
                 }
             ],
-            "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+            "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
             "track_id": 535052
         },
         "_307472": {
@@ -14840,7 +14289,7 @@
                     "instrument_id": 4
                 }
             ],
-            "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+            "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
             "track_id": 535055
         },
         "_307474": {
@@ -14900,56 +14349,8 @@
                     "instrument_id": 4
                 }
             ],
-            "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+            "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
             "track_id": 535059
-        },
-        "_270": {
-            "album": "Solitude",
-            "labelid": "RCA_Victor_09026-63729-2",
-            "trackname": "Come Sunday",
-            "release_id": "82465",
-            "session_full_id": "L517",
-            "session_id": "55918",
-            "tune_id": "270",
-            "filename": "../illinois_audio/Dig That Lick/RCA_Victor_09026-63729-2/20 Come Sunday.aiff",
-            "match_cost": 1,
-            "title": "Come Sunday",
-            "segmentid": "AQAHZ5GSJFGiJEkkDT4OAdSJ41OFHz_s_0.00.00.000000-0.03.57.226667\"",
-            "audioid": "AQAHZ5GSJFGiJEkkDT4OAdSJ41OFHz_s",
-            "musician_instrument": [
-                {
-                    "musician_name": "Johnny Dankworth",
-                    "musician_id": 1536,
-                    "instrument_name": "cl",
-                    "instrument_id": 8
-                },
-                {
-                    "musician_name": "Johnny Dankworth",
-                    "musician_id": 1536,
-                    "instrument_name": "as",
-                    "instrument_id": 10
-                },
-                {
-                    "musician_name": "Cleo Laine",
-                    "musician_id": 46526,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Johnny Dankworth",
-                    "musician_id": 1536,
-                    "instrument_name": "cond",
-                    "instrument_id": 42
-                },
-                {
-                    "musician_name": "Mercer Ellington",
-                    "musician_id": 16359,
-                    "instrument_name": "ldr",
-                    "instrument_id": 33
-                }
-            ],
-            "time_location": "New York, September 24, 26, and October 3, 1994",
-            "track_id": 582833
         },
         "_1663": {
             "album": "Solitude",
@@ -14996,7 +14397,7 @@
                     "instrument_id": 33
                 }
             ],
-            "time_location": "New York, September 24 & 26, and October 3, 1994",
+            "time_location": "New York, September 24, 26, and October 3, 1994",
             "track_id": 582823
         },
         "_3307": {
@@ -15044,7 +14445,7 @@
                     "instrument_id": 33
                 }
             ],
-            "time_location": "New York, September 24 & 26, and October 3, 1994",
+            "time_location": "New York, September 24, 26, and October 3, 1994",
             "track_id": 582822
         },
         "_43267": {
@@ -15348,7 +14749,86 @@
             "title": "Dreamtime 1",
             "segmentid": "AQADSVISRUoySkTL4Be-NERztOfQK2ji_0.00.00.000000-0.01.46.733333\"",
             "audioid": "AQADSVISRUoySkTL4Be-NERztOfQK2ji",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "fl",
+                    "instrument_id": 32
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "Murray Wilkins",
+                    "musician_id": 54169,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "saxes",
+                    "instrument_id": 43
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "mar",
+                    "instrument_id": 168
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "g",
+                    "instrument_id": 3
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "pocket-tp",
+                    "instrument_id": 203
+                }
+			],
             "time_location": "Perth, Western Australia, March 26, 1990",
             "track_id": 588834
         },
@@ -15365,7 +14845,86 @@
             "title": "Dreamtime 2",
             "segmentid": "AQAGokv2SZGIycePPmSIH82Pf-iYHGl4_0.00.00.000000-0.03.32.866667\"",
             "audioid": "AQAGokv2SZGIycePPmSIH82Pf-iYHGl4",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "fl",
+                    "instrument_id": 32
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "Murray Wilkins",
+                    "musician_id": 54169,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "saxes",
+                    "instrument_id": 43
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "mar",
+                    "instrument_id": 168
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "g",
+                    "instrument_id": 3
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "pocket-tp",
+                    "instrument_id": 203
+                }
+			],
             "time_location": "Perth, Western Australia, March 26, 1990",
             "track_id": 588835
         },
@@ -15382,7 +14941,86 @@
             "title": "Dreamtime 3",
             "segmentid": "AQADJKsySZaEg9GDhE2SI7SW41eG8UvR_0.00.00.000000-0.01.42.266667\"",
             "audioid": "AQADJKsySZaEg9GDhE2SI7SW41eG8UvR",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "fl",
+                    "instrument_id": 32
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "Murray Wilkins",
+                    "musician_id": 54169,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "saxes",
+                    "instrument_id": 43
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "mar",
+                    "instrument_id": 168
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "g",
+                    "instrument_id": 3
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "pocket-tp",
+                    "instrument_id": 203
+                }
+			],
             "time_location": "Perth, Western Australia, March 26, 1990",
             "track_id": 588836
         },
@@ -15399,7 +15037,86 @@
             "title": "Samba de yallingup",
             "segmentid": "AQALCEqyRFkWSUlwWhq6mcQTHT_65GDS_0.00.00.000000-0.05.52.266667\"",
             "audioid": "AQALCEqyRFkWSUlwWhq6mcQTHT_65GDS",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "fl",
+                    "instrument_id": 32
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "Murray Wilkins",
+                    "musician_id": 54169,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "saxes",
+                    "instrument_id": 43
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "mar",
+                    "instrument_id": 168
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "g",
+                    "instrument_id": 3
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "pocket-tp",
+                    "instrument_id": 203
+                }
+			],
             "time_location": "Perth, Western Australia, March 26, 1990",
             "track_id": 588837
         },
@@ -15416,7 +15133,86 @@
             "title": "Heartvelt",
             "segmentid": "AQASGNITKyNu9DTy4lEQng_GPEclK7Bz_0.00.00.000000-0.09.36.173333\"",
             "audioid": "AQASGNITKyNu9DTy4lEQng_GPEclK7Bz",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "fl",
+                    "instrument_id": 32
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "Murray Wilkins",
+                    "musician_id": 54169,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "saxes",
+                    "instrument_id": 43
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "mar",
+                    "instrument_id": 168
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "g",
+                    "instrument_id": 3
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "pocket-tp",
+                    "instrument_id": 203
+                }
+			],
             "time_location": "Perth, Western Australia, March 26, 1990",
             "track_id": 588838
         },
@@ -15433,7 +15229,86 @@
             "title": "Port-au-club",
             "segmentid": "AQAM-EmYKIke5NnxH32O-wipKBe-QL9Q_0.00.00.000000-0.06.53.693333\"",
             "audioid": "AQAM-EmYKIke5NnxH32O-wipKBe-QL9Q",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "fl",
+                    "instrument_id": 32
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "Murray Wilkins",
+                    "musician_id": 54169,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "saxes",
+                    "instrument_id": 43
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "mar",
+                    "instrument_id": 168
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "g",
+                    "instrument_id": 3
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "pocket-tp",
+                    "instrument_id": 203
+                }
+			],
             "time_location": "Perth, Western Australia, March 26, 1990",
             "track_id": 588839
         },
@@ -15450,7 +15325,86 @@
             "title": "I mean you",
             "segmentid": "AQAL7koSMYySMFHQHB-eB3cSZvikw4em_0.00.00.000000-0.06.20.760000\"",
             "audioid": "AQAL7koSMYySMFHQHB-eB3cSZvikw4em",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "fl",
+                    "instrument_id": 32
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "Murray Wilkins",
+                    "musician_id": 54169,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "saxes",
+                    "instrument_id": 43
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "mar",
+                    "instrument_id": 168
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "g",
+                    "instrument_id": 3
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "pocket-tp",
+                    "instrument_id": 203
+                }
+			],
             "time_location": "Perth, Western Australia, April 17, 1990",
             "track_id": 588842
         },
@@ -15467,7 +15421,86 @@
             "title": "Rachel's song",
             "segmentid": "AQAKqpIyKpG0JMJxisaVB324IszDIXlL_0.00.00.000000-0.05.40.666667\"",
             "audioid": "AQAKqpIyKpG0JMJxisaVB324IszDIXlL",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "fl",
+                    "instrument_id": 32
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "perc",
+                    "instrument_id": 61
+                },
+                {
+                    "musician_name": "Murray Wilkins",
+                    "musician_id": 54169,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "David Vrcic",
+                    "musician_id": 98051,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Roger Garrood",
+                    "musician_id": 98049,
+                    "instrument_name": "saxes",
+                    "instrument_id": 43
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Victoria Newton",
+                    "musician_id": 98050,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "mar",
+                    "instrument_id": 168
+                },
+                {
+                    "musician_name": "Garry Lee",
+                    "musician_id": 73565,
+                    "instrument_name": "g",
+                    "instrument_id": 3
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Don Gomes",
+                    "musician_id": 46080,
+                    "instrument_name": "pocket-tp",
+                    "instrument_id": 203
+                }
+			],
             "time_location": "Perth, Western Australia, April 17, 1990",
             "track_id": 588841
         },
@@ -17916,6 +17949,12 @@
             "audioid": "AQANgqGSKMqsIhJ_4wefrKj9I8wO_U-I",
             "musician_instrument": [
                 {
+                    "musician_name": "Don Shelton",
+                    "musician_id": 11033,
+                    "instrument_name": "sop",
+                    "instrument_id": 39
+                },
+                {
                     "musician_name": "Paul Wertico",
                     "musician_id": 10730,
                     "instrument_name": "d",
@@ -18030,7 +18069,7 @@
                     "instrument_id": 18
                 }
             ],
-            "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+            "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
             "track_id": 654975
         },
         "_1706": {
@@ -18096,7 +18135,7 @@
                     "instrument_id": 18
                 }
             ],
-            "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+            "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
             "track_id": 654976
         },
         "_3233": {
@@ -18156,7 +18195,7 @@
                     "instrument_id": 18
                 }
             ],
-            "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+            "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
             "track_id": 654985
         },
         "_3322": {
@@ -18228,7 +18267,7 @@
                     "instrument_id": 18
                 }
             ],
-            "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+            "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
             "track_id": 654977
         },
         "_5357": {
@@ -18300,7 +18339,7 @@
                     "instrument_id": 18
                 }
             ],
-            "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+            "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
             "track_id": 654981
         },
         "_21475": {
@@ -18366,7 +18405,7 @@
                     "instrument_id": 18
                 }
             ],
-            "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+            "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
             "track_id": 654980
         },
         "_33618": {
@@ -18426,7 +18465,7 @@
                     "instrument_id": 18
                 }
             ],
-            "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+            "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
             "track_id": 654982
         },
         "_3524": {
@@ -19794,7 +19833,7 @@
                     "instrument_id": 123
                 },
                 {
-                    "musician_name": " Money",
+                    "musician_name": "A.B. Money",
                     "musician_id": 191941,
                     "instrument_name": "rap",
                     "instrument_id": 123
@@ -19854,7 +19893,7 @@
                     "instrument_id": 123
                 },
                 {
-                    "musician_name": " Money",
+                    "musician_name": "A.B. Money",
                     "musician_id": 191941,
                     "instrument_name": "rap",
                     "instrument_id": 123
@@ -19914,7 +19953,7 @@
                     "instrument_id": 123
                 },
                 {
-                    "musician_name": " Money",
+                    "musician_name": "A.B. Money",
                     "musician_id": 191941,
                     "instrument_name": "rap",
                     "instrument_id": 123
@@ -19974,7 +20013,7 @@
                     "instrument_id": 123
                 },
                 {
-                    "musician_name": " Money",
+                    "musician_name": "A.B. Money",
                     "musician_id": 191941,
                     "instrument_name": "rap",
                     "instrument_id": 123
@@ -20034,7 +20073,7 @@
                     "instrument_id": 123
                 },
                 {
-                    "musician_name": " Money",
+                    "musician_name": "A.B. Money",
                     "musician_id": 191941,
                     "instrument_name": "rap",
                     "instrument_id": 123
@@ -20094,7 +20133,7 @@
                     "instrument_id": 123
                 },
                 {
-                    "musician_name": " Money",
+                    "musician_name": "A.B. Money",
                     "musician_id": 191941,
                     "instrument_name": "rap",
                     "instrument_id": 123
@@ -20154,7 +20193,7 @@
                     "instrument_id": 123
                 },
                 {
-                    "musician_name": " Money",
+                    "musician_name": "A.B. Money",
                     "musician_id": 191941,
                     "instrument_name": "rap",
                     "instrument_id": 123
@@ -20164,7 +20203,7 @@
             "track_id": 728347
         },
         "_2364": {
-            "album": "n",
+            "album": "Joshua Redman",
             "labelid": "Warner_Bros_9-45242-2",
             "trackname": "On the sunny side of the street",
             "release_id": "116446",
@@ -20206,7 +20245,7 @@
             "track_id": 728447
         },
         "_36630": {
-            "album": "n",
+            "album": "Joshua Redman",
             "labelid": "Warner_Bros_9-45242-2",
             "trackname": "Wish",
             "release_id": "116446",
@@ -20248,7 +20287,7 @@
             "track_id": 728441
         },
         "_57190": {
-            "album": "n",
+            "album": "Joshua Redman",
             "labelid": "Warner_Bros_9-45242-2",
             "trackname": "I got you (I feel good)",
             "release_id": "116446",
@@ -20290,7 +20329,7 @@
             "track_id": 728443
         },
         "_128838": {
-            "album": "n",
+            "album": "Joshua Redman",
             "labelid": "Warner_Bros_9-45242-2",
             "trackname": "Sublimation",
             "release_id": "116446",
@@ -20332,7 +20371,7 @@
             "track_id": 728448
         },
         "_261520": {
-            "album": "n",
+            "album": "Joshua Redman",
             "labelid": "Warner_Bros_9-45242-2",
             "trackname": "Blues on Sunday",
             "release_id": "116446",
@@ -20374,7 +20413,7 @@
             "track_id": 728440
         },
         "_261543": {
-            "album": "n",
+            "album": "Joshua Redman",
             "labelid": "Warner_Bros_9-45242-2",
             "trackname": "Tribalism",
             "release_id": "116446",
@@ -23442,6 +23481,12 @@
             "audioid": "AQAKy0wkhUvCRPBzhPJCLtCPJxpKPkJz",
             "musician_instrument": [
                 {
+                    "musician_name": "Kim Waters",
+                    "musician_id": 18150,
+                    "instrument_name": "sop",
+                    "instrument_id": 39
+                },
+                {
                     "musician_name": "Will Lee",
                     "musician_id": 19412,
                     "instrument_name": "b",
@@ -24122,108 +24167,6 @@
             ],
             "time_location": "Montreux Jazz Festival, Switzerland, July 13 & 14, 1999",
             "track_id": 728425
-        },
-        "_3175": {
-            "album": "The Sidewalks Of New York",
-            "labelid": "Winter_Winter_WW-910-200-2",
-            "trackname": "They didn't believe me",
-            "release_id": "287270",
-            "session_full_id": "C206.10",
-            "session_id": "69079",
-            "tune_id": "3175",
-            "filename": "../illinois_audio/Dig That Lick/Winter_Winter_WW-910-200-2/3 They Didn't Believe Me.aiff",
-            "match_cost": 0,
-            "title": "They didn't believe me",
-            "segmentid": "AQAIJVQSa-oSfFOCHw9yH8kyPujEOnij_0.00.00.000000-0.04.20.840000\"",
-            "audioid": "AQAIJVQSa-oSfFOCHw9yH8kyPujEOnij",
-            "musician_instrument": [
-                {
-                    "musician_name": "Josh Roseman",
-                    "musician_id": 4036,
-                    "instrument_name": "tb",
-                    "instrument_id": 1
-                },
-                {
-                    "musician_name": "Ben Perowsky",
-                    "musician_id": 622,
-                    "instrument_name": "d",
-                    "instrument_id": 5
-                },
-                {
-                    "musician_name": "Uri Caine",
-                    "musician_id": 14532,
-                    "instrument_name": "p",
-                    "instrument_id": 2
-                },
-                {
-                    "musician_name": "Dave Douglas",
-                    "musician_id": 19293,
-                    "instrument_name": "tp",
-                    "instrument_id": 14
-                },
-                {
-                    "musician_name": "James Genus",
-                    "musician_id": 2684,
-                    "instrument_name": "b",
-                    "instrument_id": 4
-                },
-                {
-                    "musician_name": "Mark Feldman",
-                    "musician_id": 924,
-                    "instrument_name": "vln",
-                    "instrument_id": 18
-                },
-                {
-                    "musician_name": "Bob Stewart",
-                    "musician_id": 1201,
-                    "instrument_name": "tu",
-                    "instrument_id": 22
-                },
-                {
-                    "musician_name": "Don Byron",
-                    "musician_id": 5297,
-                    "instrument_name": "cl",
-                    "instrument_id": 8
-                },
-                {
-                    "musician_name": "Bob DeBellis",
-                    "musician_id": 1237,
-                    "instrument_name": "fl",
-                    "instrument_id": 32
-                },
-                {
-                    "musician_name": "Dominic Cortese",
-                    "musician_id": 25134,
-                    "instrument_name": "accor",
-                    "instrument_id": 72
-                },
-                {
-                    "musician_name": "Eddy Davis",
-                    "musician_id": 7163,
-                    "instrument_name": "bj",
-                    "instrument_id": 17
-                },
-                {
-                    "musician_name": "Uri Caine",
-                    "musician_id": 14532,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Dominic Cortese",
-                    "musician_id": 25134,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                },
-                {
-                    "musician_name": "Stuart Zagnit",
-                    "musician_id": 214483,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                }
-            ],
-            "time_location": "New York, February, 1999",
-            "track_id": 735471
         },
         "_1275": {
             "album": "On Broadway, Vol. 3",

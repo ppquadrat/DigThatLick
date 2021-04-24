@@ -513,6 +513,12 @@
                     "instrument_id": 7
                 },
                 {
+                    "musician_name": "Pete Christlieb",
+                    "musician_id": 3445,
+                    "instrument_name": "ts",
+                    "instrument_id": 9
+                },
+                {
                     "musician_name": "Bob Cooper",
                     "musician_id": 7538,
                     "instrument_name": "ts",
@@ -2607,6 +2613,12 @@
             "audioid": "AQAHXUpSRSFDqMe1weoF6imG40FaFclv",
             "musician_instrument": [
                 {
+                    "musician_name": "Leon Oakley",
+                    "musician_id": 0,
+                    "instrument_name": "cnt",
+                    "instrument_id": 6
+                },
+                {
                     "musician_name": "Garvin Bushell",
                     "musician_id": 27207,
                     "instrument_name": "cl",
@@ -2702,6 +2714,12 @@
             "segmentid": "AQAKZdyeoT_-HI7xBbrx5ug_XMUToWFU_0.00.00.000000-0.05.32.146667\"",
             "audioid": "AQAKZdyeoT_-HI7xBbrx5ug_XMUToWFU",
             "musician_instrument": [
+                {
+                    "musician_name": "Leon Oakley",
+                    "musician_id": 0,
+                    "instrument_name": "tp",
+                    "instrument_id": 14
+                },
                 {
                     "musician_name": "Garvin Bushell",
                     "musician_id": 27207,
@@ -2851,6 +2869,12 @@
                     "musician_id": 2978,
                     "instrument_name": "d",
                     "instrument_id": 5
+                },
+                {
+                    "musician_name": "Bobby Hutcherson",
+                    "musician_id": 9261,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
                 },
                 {
                     "musician_name": "Cedar Walton",
@@ -4281,6 +4305,12 @@
                     "instrument_id": 5
                 },
                 {
+                    "musician_name": "Brian Lynch",
+                    "musician_id": 4350,
+                    "instrument_name": "tp",
+                    "instrument_id": 14
+                },
+                {
                     "musician_name": "Charlie Sepulveda",
                     "musician_id": 56076,
                     "instrument_name": "tp",
@@ -4291,6 +4321,12 @@
                     "musician_id": 3714,
                     "instrument_name": "cga",
                     "instrument_id": 121
+                },
+                {
+                    "musician_name": "Shiro Sadamura",
+                    "musician_id": 75149,
+                    "instrument_name": "vln",
+                    "instrument_id": 18
                 },
                 {
                     "musician_name": "Alfredo Triff",
@@ -5274,66 +5310,6 @@
             "time_location": "Bearsville, NY, December 29, 1984",
             "track_id": 427228
         },
-        "_6911": {
-            "album": "You Know The Number",
-            "labelid": "Mosaic_247",
-            "trackname": "Paille Street",
-            "release_id": "140488",
-            "session_full_id": "T3295",
-            "session_id": "44851",
-            "tune_id": "6911",
-            "filename": "../illinois_audio/Dig That Lick/Mosaic_247/5 Paille Street.aiff",
-            "match_cost": 0,
-            "title": "Paille Street",
-            "segmentid": "AQAEUcmULEmSasLxw_qB_MAv4cNx_DtM_0.00.00.000000-0.02.19.440000\"",
-            "audioid": "AQAEUcmULEmSasLxw_qB_MAv4cNx_DtM",
-            "musician_instrument": [
-                {
-                    "musician_name": "Reggie Nicholson",
-                    "musician_id": 1241,
-                    "instrument_name": "perc",
-                    "instrument_id": 61
-                },
-                {
-                    "musician_name": "Fred Hopkins",
-                    "musician_id": 801,
-                    "instrument_name": "b",
-                    "instrument_id": 4
-                },
-                {
-                    "musician_name": "Henry Threadgill",
-                    "musician_id": 1179,
-                    "instrument_name": "as",
-                    "instrument_id": 10
-                },
-                {
-                    "musician_name": "Rasul Siddik",
-                    "musician_id": 33898,
-                    "instrument_name": "tp",
-                    "instrument_id": 14
-                },
-                {
-                    "musician_name": "Diedre Murray",
-                    "musician_id": 1233,
-                    "instrument_name": "cello",
-                    "instrument_id": 35
-                },
-                {
-                    "musician_name": "Henry Threadgill",
-                    "musician_id": 1179,
-                    "instrument_name": "ts",
-                    "instrument_id": 9
-                },
-                {
-                    "musician_name": "Henry Threadgill",
-                    "musician_id": 1179,
-                    "instrument_name": "b-fl",
-                    "instrument_id": 241
-                }
-            ],
-            "time_location": "New York, October 12 & 13, 1986",
-            "track_id": 428441
-        },
         "_17472": {
             "album": "You Know The Number",
             "labelid": "Mosaic_247",
@@ -5348,6 +5324,12 @@
             "segmentid": "AQAMYNuThVIShOYNyh_6hOgl4YccVXh0_0.00.00.000000-0.06.34.9200",
             "audioid": "AQAMYNuThVIShOYNyh_6hOgl4YccVXh0",
             "musician_instrument": [
+                {
+                    "musician_name": "Frank Ku-umba Lacy",
+                    "musician_id": 0,
+                    "instrument_name": "tb",
+                    "instrument_id": 1
+                },
                 {
                     "musician_name": "Reggie Nicholson",
                     "musician_id": 1241,
@@ -5408,6 +5390,12 @@
             "segmentid": "AQAMMtG0Jzr0qETWFw-b4DucHOd18DLO_0.00.00.000000-0.06.29.146667\"",
             "audioid": "AQAMMtG0Jzr0qETWFw-b4DucHOd18DLO",
             "musician_instrument": [
+                {
+                    "musician_name": "Frank Ku-umba Lacy",
+                    "musician_id": 0,
+                    "instrument_name": "tb",
+                    "instrument_id": 1
+                },
                 {
                     "musician_name": "Reggie Nicholson",
                     "musician_id": 1241,
@@ -5528,6 +5516,12 @@
             "segmentid": "AQAMlGWSKImUNdhTUD9ObD98ocqON1eG_0.00.00.000000-0.06.41.320000\"",
             "audioid": "AQAMlGWSKImUNdhTUD9ObD98ocqON1eG",
             "musician_instrument": [
+                {
+                    "musician_name": "Frank Ku-umba Lacy",
+                    "musician_id": 0,
+                    "instrument_name": "tb",
+                    "instrument_id": 1
+                },
                 {
                     "musician_name": "Reggie Nicholson",
                     "musician_id": 1241,
@@ -5708,6 +5702,12 @@
             "segmentid": "AQANWFmSKxmTREGeFdOPBznD4xukPqhp_0.00.00.000000-0.07.05.626667\"",
             "audioid": "AQANWFmSKxmTREGeFdOPBznD4xukPqhp",
             "musician_instrument": [
+                {
+                    "musician_name": "Frank Ku-umba Lacy",
+                    "musician_id": 0,
+                    "instrument_name": "tb",
+                    "instrument_id": 1
+                },
                 {
                     "musician_name": "Reggie Nicholson",
                     "musician_id": 1241,
@@ -8096,6 +8096,12 @@
             "segmentid": "AQAKBKSiSFKiCPmhb6kShH7w6HB39PiD_0.00.00.000000-0.05.20.066667\"",
             "audioid": "AQAKBKSiSFKiCPmhb6kShH7w6HB39PiD",
             "musician_instrument": [
+                {
+                    "musician_name": "Bobby Shew",
+                    "musician_id": 0,
+                    "instrument_name": "tp",
+                    "instrument_id": 14
+                },
                 {
                     "musician_name": "Scott Robinson",
                     "musician_id": 4037,

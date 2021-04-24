@@ -20229,7 +20229,7 @@
                     "instrument_id": 15
                 },
                 {
-                    "musician_name": " Miller",
+                    "musician_name": "R.J. Miller",
                     "musician_id": 37750,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -20319,7 +20319,7 @@
                     "instrument_id": 15
                 },
                 {
-                    "musician_name": " Miller",
+                    "musician_name": "R.J. Miller",
                     "musician_id": 37750,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -20415,7 +20415,7 @@
                     "instrument_id": 15
                 },
                 {
-                    "musician_name": " Miller",
+                    "musician_name": "R.J. Miller",
                     "musician_id": 37750,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -20505,7 +20505,7 @@
                     "instrument_id": 15
                 },
                 {
-                    "musician_name": " Miller",
+                    "musician_name": "R.J. Miller",
                     "musician_id": 37750,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -25897,7 +25897,140 @@
             "title": "East Broadway merengue",
             "segmentid": "AQAMy1IiKXmMHHqOS_nwJDvhHHnQZ8VJ_0.00.00.000000-0.06.48.120000\"",
             "audioid": "AQAMy1IiKXmMHHqOS_nwJDvhHHnQZ8VJ",
-            "musician_instrument": [],
+            "musician_instrument": [
+                {
+                    "musician_name": "Dave Zinno",
+                    "musician_id": 608,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "Paul Austerlitz",
+                    "musician_id": 15031,
+                    "instrument_name": "cl",
+                    "instrument_id": 8
+                },
+                {
+                    "musician_name": "Paul Austerlitz",
+                    "musician_id": 15031,
+                    "instrument_name": "b-cl",
+                    "instrument_id": 53
+                },
+                {
+                    "musician_name": "Paul Austerlitz",
+                    "musician_id": 15031,
+                    "instrument_name": "contrabass-cl",
+                    "instrument_id": 454
+                },
+                {
+                    "musician_name": "Paul Austerlitz",
+                    "musician_id": 15031,
+                    "instrument_name": "ts",
+                    "instrument_id": 9
+                },
+                {
+                    "musician_name": "Paul Austerlitz",
+                    "musician_id": 15031,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Angelina Tallaj",
+                    "musician_id": 184086,
+                    "instrument_name": "p",
+                    "instrument_id": 2
+                },
+                {
+                    "musician_name": "Gustavo Rodriguez",
+                    "musician_id": 184087,
+                    "instrument_name": "keyboards",
+                    "instrument_id": 116
+                },
+                {
+                    "musician_name": "Juan Valdez",
+                    "musician_id": 184088,
+                    "instrument_name": "el-b",
+                    "instrument_id": 119
+                },
+                {
+                    "musician_name": "Wellington Valenzuela",
+                    "musician_id": 184089,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
+                {
+                    "musician_name": "Renee Cologne",
+                    "musician_id": 8321,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Kwaku Kwaakye Obeng",
+                    "musician_id": 83877,
+                    "instrument_name": "donno",
+                    "instrument_id": 2778
+                },
+                {
+                    "musician_name": "Kwaku Kwaakye Obeng",
+                    "musician_id": 83877,
+                    "instrument_name": "cowbell",
+                    "instrument_id": 178
+                },
+                {
+                    "musician_name": "Jose Duluc",
+                    "musician_id": 184090,
+                    "instrument_name": "palos",
+                    "instrument_id": 2779
+                },
+                {
+                    "musician_name": "Jose Duluc",
+                    "musician_id": 184090,
+                    "instrument_name": "balsie",
+                    "instrument_id": 2780
+                },
+                {
+                    "musician_name": "Jose Duluc",
+                    "musician_id": 184090,
+                    "instrument_name": "guira",
+                    "instrument_id": 215
+                },
+                {
+                    "musician_name": "Jose Duluc",
+                    "musician_id": 184090,
+                    "instrument_name": "vcl",
+                    "instrument_id": 7
+                },
+                {
+                    "musician_name": "Julio Figueroa",
+                    "musician_id": 121188,
+                    "instrument_name": "tambora",
+                    "instrument_id": 193
+                },
+                {
+                    "musician_name": "Julio Figueroa",
+                    "musician_id": 121188,
+                    "instrument_name": "cga",
+                    "instrument_id": 121
+                },
+                {
+                    "musician_name": "Julio Figueroa",
+                    "musician_id": 121188,
+                    "instrument_name": "bgo",
+                    "instrument_id": 44
+                },
+                {
+                    "musician_name": "Julio Figueroa",
+                    "musician_id": 121188,
+                    "instrument_name": "guira",
+                    "instrument_id": 215
+                },
+                {
+                    "musician_name": "Regie Gibson",
+                    "musician_id": 184091,
+                    "instrument_name": "spoken word",
+                    "instrument_id": 388
+                }
+			],
             "time_location": "Santo Domingo, Dominican Republic, 2006-2007",
             "track_id": 320135
         },
@@ -43244,7 +43377,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": "Ray Levier",
+                    "musician_name": "Ray LeVier",
                     "musician_id": 175694,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -43292,7 +43425,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": "Ray Levier",
+                    "musician_name": "Ray LeVier",
                     "musician_id": 175694,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -43346,7 +43479,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": "Ray Levier",
+                    "musician_name": "Ray LeVier",
                     "musician_id": 175694,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -43394,7 +43527,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": "Ray Levier",
+                    "musician_name": "Ray LeVier",
                     "musician_id": 175694,
                     "instrument_name": "d",
                     "instrument_id": 5
@@ -43465,6 +43598,36 @@
             "segmentid": "AQAP7pEWKVKSjEH1z_g2MHNk_MZzvKEw_0.00.00.000000-0.08.27.520000\"",
             "audioid": "AQAP7pEWKVKSjEH1z_g2MHNk_MZzvKEw",
             "musician_instrument": [
+                {
+                    "musician_name": "David Binney",
+                    "musician_id": 29122,
+                    "instrument_name": "ts",
+                    "instrument_id": 9
+                },
+                {
+                    "musician_name": "Francois Moutin",
+                    "musician_id": 8672,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "Joe Locke",
+                    "musician_id": 5493,
+                    "instrument_name": "vib",
+                    "instrument_id": 69
+                },
+                {
+                    "musician_name": "Ned Mann",
+                    "musician_id": 16052,
+                    "instrument_name": "b",
+                    "instrument_id": 4
+                },
+                {
+                    "musician_name": "Ray LeVier",
+                    "musician_id": 175694,
+                    "instrument_name": "d",
+                    "instrument_id": 5
+                },
                 {
                     "musician_name": "Mike Stern",
                     "musician_id": 11692,
@@ -48306,6 +48469,12 @@
                     "musician_id": 148982,
                     "instrument_name": "accor",
                     "instrument_id": 72
+                },
+                {
+                    "musician_name": "Ben Goldberg",
+                    "musician_id": 0,
+                    "instrument_name": "cl",
+                    "instrument_id": 8
                 },
                 {
                     "musician_name": "Darren Johnston",
@@ -61907,54 +62076,6 @@
             "time_location": "Hollywood, CA, June 8-10, 2003",
             "track_id": 688665
         },
-        "_8755": {
-            "album": "On Broadway, Vol. 4 : The Paradox of Continuity",
-            "labelid": "Winter_Winter_WW-910-200-2",
-            "trackname": "Last night when we were young",
-            "release_id": "173838",
-            "session_full_id": "M11448.30",
-            "session_id": "69131",
-            "tune_id": "8755",
-            "filename": "../illinois_audio/Dig That Lick/Winter_Winter_WW-910-200-2/6 Last Night When We Were Young.aiff",
-            "match_cost": 0,
-            "title": "Last night when we were young",
-            "segmentid": "AQAKBu60JJJxRhf2JOgT4dGI3cWzo4mS_0.00.00.000000-0.05.20.333333\"",
-            "audioid": "AQAKBu60JJJxRhf2JOgT4dGI3cWzo4mS",
-            "musician_instrument": [
-                {
-                    "musician_name": "Chris Potter",
-                    "musician_id": 12204,
-                    "instrument_name": "ts",
-                    "instrument_id": 9
-                },
-                {
-                    "musician_name": "Paul Motian",
-                    "musician_id": 6693,
-                    "instrument_name": "d",
-                    "instrument_id": 5
-                },
-                {
-                    "musician_name": "Larry Grenadier",
-                    "musician_id": 7652,
-                    "instrument_name": "b",
-                    "instrument_id": 4
-                },
-                {
-                    "musician_name": "Masabumi Kikuchi",
-                    "musician_id": 66753,
-                    "instrument_name": "p",
-                    "instrument_id": 2
-                },
-                {
-                    "musician_name": "Rebecca Martin",
-                    "musician_id": 110334,
-                    "instrument_name": "vcl",
-                    "instrument_id": 7
-                }
-            ],
-            "time_location": "New York, November 21-23, 2005",
-            "track_id": 736072
-        },
         "_28013": {
             "album": "Dancing In The Dark",
             "labelid": "Telarc_CD-83592",
@@ -67022,7 +67143,7 @@
                     "instrument_id": 4
                 },
                 {
-                    "musician_name": " Sivamani",
+                    "musician_name": "A. Sivamani",
                     "musician_id": 212675,
                     "instrument_name": "perc",
                     "instrument_id": 61
@@ -67148,7 +67269,7 @@
                     "instrument_id": 23
                 },
                 {
-                    "musician_name": " Shrinivas",
+                    "musician_name": "U. Shrinivas",
                     "musician_id": 212683,
                     "instrument_name": "mand",
                     "instrument_id": 19
@@ -69980,7 +70101,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70070,7 +70191,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70160,7 +70281,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70250,7 +70371,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70340,7 +70461,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70430,7 +70551,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70520,7 +70641,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70610,7 +70731,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70700,7 +70821,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -70790,7 +70911,7 @@
                     "instrument_id": 4289
                 },
                 {
-                    "musician_name": " Bonebrake",
+                    "musician_name": "D.J. Bonebrake",
                     "musician_id": 27381,
                     "instrument_name": "vib",
                     "instrument_id": 69
@@ -73306,102 +73427,6 @@
             ],
             "time_location": "Live \"Village Vanguard\", New York, May 23-25, 2003",
             "track_id": 736203
-        },
-        "_44898": {
-            "album": "Habyor",
-            "labelid": "Winter_Winter_WW-910-174-2",
-            "trackname": "Z",
-            "release_id": "160722",
-            "session_full_id": "B8319.10",
-            "session_id": "69153",
-            "tune_id": "44898",
-            "filename": "../illinois_audio/Dig That Lick/Winter_Winter_WW-910-174-2/8 JB.aiff",
-            "match_cost": 2,
-            "title": "Z",
-            "segmentid": "AQAGIpSahkrx71j7HKePPQsXIT8mGuYl_0.00.00.000000-0.03.17.013333\"",
-            "audioid": "AQAGIpSahkrx71j7HKePPQsXIT8mGuYl",
-            "musician_instrument": [
-                {
-                    "musician_name": "Chris Speed",
-                    "musician_id": 27173,
-                    "instrument_name": "ts",
-                    "instrument_id": 9
-                },
-                {
-                    "musician_name": "Jim Black",
-                    "musician_id": 9492,
-                    "instrument_name": "d",
-                    "instrument_id": 5
-                },
-                {
-                    "musician_name": "Chris Speed",
-                    "musician_id": 27173,
-                    "instrument_name": "cl",
-                    "instrument_id": 8
-                },
-                {
-                    "musician_name": "Skuli Sverrisson",
-                    "musician_id": 5278,
-                    "instrument_name": "el-b",
-                    "instrument_id": 119
-                },
-                {
-                    "musician_name": "Hilmar Jensson",
-                    "musician_id": 29734,
-                    "instrument_name": "g",
-                    "instrument_id": 3
-                },
-                {
-                    "musician_name": "Jim Black",
-                    "musician_id": 9492,
-                    "instrument_name": "melodica",
-                    "instrument_id": 490
-                },
-                {
-                    "musician_name": "Chris Speed",
-                    "musician_id": 27173,
-                    "instrument_name": "el-p",
-                    "instrument_id": 16
-                },
-                {
-                    "musician_name": "Chris Speed",
-                    "musician_id": 27173,
-                    "instrument_name": "accor",
-                    "instrument_id": 72
-                },
-                {
-                    "musician_name": "Jim Black",
-                    "musician_id": 9492,
-                    "instrument_name": "el-p",
-                    "instrument_id": 16
-                }
-            ],
-            "time_location": "New York, September 26-28, 2003",
-            "track_id": 736264
-        },
-        "_7216": {
-            "album": "Sonny II",
-            "labelid": "Winter_Winter_WW-910-174-2",
-            "trackname": "Joe",
-            "release_id": "160392",
-            "session_full_id": "A1644.40",
-            "session_id": "69238",
-            "tune_id": "7216",
-            "filename": "../illinois_audio/Dig That Lick/Winter_Winter_WW-910-174-2/8 JB.aiff",
-            "match_cost": 2,
-            "title": "Joe",
-            "segmentid": "AQAGIpSahkrx71j7HKePPQsXIT8mGuYl_0.00.00.000000-0.03.17.013333\"",
-            "audioid": "AQAGIpSahkrx71j7HKePPQsXIT8mGuYl",
-            "musician_instrument": [
-                {
-                    "musician_name": "Noel Akchote",
-                    "musician_id": 4109,
-                    "instrument_name": "g",
-                    "instrument_id": 3
-                }
-            ],
-            "time_location": "Vienna, Austria, May 23, June 30 & July 3, 2003",
-            "track_id": 736699
         },
         "_415853": {
             "album": "On Broadway, Vol. 5",
