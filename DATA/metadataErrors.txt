@@ -1,0 +1,236 @@
+This file contains a log of the errors that were fixed (7-10/4/21) in the files:
+	jazz/dtl-tjd-import/DTL1000/updates/*.json
+	jazz/JECompleteIndex_20210407.csv
+
+I also include some notes of remaining issues, questions, etc.
+
+Question: should "ldr", "arr", "cond", "comp", etc. be mapped to "other"?
+ - could they get confused with "other" instruments?
+ - no changes made
+
+There seems to be a consistent error where the first name consists of initials
+only, that this is omitted in the JSON file. (This results in a name beginning
+with a space, which fails to match the surname.) These were inserted manually:
+ - Rodriguez should be E.J. Rodriguez (1990s)
+	576:  Rodriguez: backing vcl: 
+	576:  Rodriguez: bells: 
+	576:  Rodriguez: berimbau: 
+	576:  Rodriguez: cga: 
+	576:  Rodriguez: cherimia: 
+	576:  Rodriguez: d: 
+	576:  Rodriguez: fishbowl: 
+	576:  Rodriguez: gongs: 
+	576:  Rodriguez: saga: 
+	1026:  Rodriguez: backing vcl: 
+	1026:  Rodriguez: bells: 
+	1026:  Rodriguez: berimbau: 
+	1026:  Rodriguez: cga: 
+	1026:  Rodriguez: cherimia: 
+	1026:  Rodriguez: d: 
+	1026:  Rodriguez: fishbowl: 
+	1026:  Rodriguez: gongs: 
+	1026:  Rodriguez: saga: 
+ - A.G. Robeson
+	612:  Robeson: tb: 
+	643:  Robeson: b-tb: 
+	1040:  Robeson: b-tb: 
+	1272:  Robeson: b-tb: 
+	1315:  Robeson: b-tb: 
+ - R.J. Miller
+	726:  Miller: d: 
+ - A.B. Money
+	792:  Money: rap: 
+	810:  Money: rap: 
+ - J.C. Moses
+	1264:  Moses: d: 
+ - J.T. Lewis
+	1351:  Lewis: d: 
+	1646:  Lewis: d: 
+ - A. Sivamani
+	1442:  Sivamani: perc: 
+
+Instrument missing in lineup (from Andrew's dtl_metadata_with_corrections.xls):
+ - ts added
+	468: Sonny Stitt: as: as, ts
+	636: Sonny Stitt: as: as, ts
+ - flhrn added
+ 	996: Ron Horton: tp: flg, tp
+ - as added
+	1117: Phil Woods: sop: as
+ - sop added
+	1307: Phil Woods: as: as, ss
+
+Extra characters in ID: AQAEgmQjrYnQ_CiT49aD0EyCZE_x005F_x472C
+ - removed _x005F in corrections xls file --> ***need to fix at source!!!***
+	ERROR 68: AQAEgmQjrYnQ_CiT49aD0EyCZE_x005F_x472C: Charlie Parker's All Stars: The Encyclopedia of Jazz, Part 4: Bebop Story - A Musical Revolution That Radically Changed the Road of Jazz: Constellation
+
+Lineup fixed in JE metadata file already:
+	KEYERROR 1005: AQALn3SUZJMSJbge_EKy5wrC5BPexA0u
+	Mismatch: Gene Ramey (b), Harry Edison (tp), Jo Jones (dr), Lester Young (ts), Oscar Peterson (p): Gene Ramey (b), Jo Jones (dr), Lester Young (ts), Teddy Wilson (p)
+
+Missing instrument added to JE metadata (20210407):
+ - ts for McLean 
+	KEYERROR 1206: AQAnQUwyJVKnJAgTJkmO5JTQR8nR8DuO
+	Mismatch: Curtis Fuller (tb), Gil Coggins (p), Jackie McLean (as, ts), Louis Hayes (dr), Paul Chambers (b), Webster Young (tp): Curtis Fuller (tb), Gil Coggins (p), Jackie McLean (as), Louis Hayes (dr), Paul Chambers (b), Webster Young (tp)
+
+Missing musicians due to correction of lineups:
+ - Replaced Ammons with Gordon
+	NOT FOUND: 502: AQAgmkmiPNOyBJF05ZjyE4_Q47nhKcmH: Gene Ammons: Cleveland Eaton (b), Dexter Gordon (ts), John Young (p), Steve McCall (dr)
+	NOT FOUND: 1547: AQATDWkUKXFE_Pghqu2Q49lxJWge1Mrw: Gene Ammons: Cleveland Eaton (b), Dexter Gordon (ts), John Young (p), Steve McCall (dr)
+ - Leading space mismatch (" Allen" <-> "Allen") (see additional fixes below)
+	NOT FOUND: 769: AQAJ8dKmMJkSSTi-6CjzolH-4T7OE0tS:  Allen: Allen (), Danny Grissett (p), Dwayne Burno (b), Gerald Cleaver (dr), Jeremy Pelt (flg, tp), Joanna Pascale (voc)
+	NOT FOUND: 1650: AQAVXloSLUkmxeijBzmSSscjfM9wHlMe:  Allen: Allen (), Danny Grissett (p), Dwayne Burno (b), Gerald Cleaver (dr), Jeremy Pelt (flg, tp), Joanna Pascale (voc)
+ - Leading space mismatch (see additional fixes below)
+	NOT FOUND: 781: AQAJhZokJYmiJDGOBz_y4zwO7QceHJo_:  Bonebrake: Bonebrake (), Danny Frankel (other, dr), David Piltch (b), Pablo Calogero (other, fl, bcl, bs), Steven Bernstein (flg, tp)
+ - Replaced Sims with Woods (as)
+	NOT FOUND: 1329: AQAPk5umNEq2BPsL7RkeRjm8ZF1R6Tse: Zoot Sims: Bill Goodwin (dr), Mike Melillo (p), Phil Woods (as), Steve Gilmore (b)
+
+Additional fixes: added initials for:
+ - U. Shrinivas
+ - D.J. Bonebrake
+ - J.D. Allen
+ - E.J. Strickland
+ - T.J. Thompson
+
+Added titles:
+8-9,1427-9: The Cellar Door Sessions 1970
+550: The Jazz Crusaders: The Pacific Jazz Quintet Studio Sessions
+ - original sources:
+   That's it; Freedom sound; Theme from \"Exodus\" -- Freedom Sound
+   Weather beat -- Lookin' Ahead
+   Deacon Brown; Tough Talk; No Name Samba; Lazy Canary; Brother Bernard; Lonely Horn; Boopie; Turkish Black -- Tough Talk
+   On Broadway; Sassy; Free Sample; Mr. Sandman; Close Shave; Some Samba;
+   Purple Onion -- Heat Wave
+   You Are Only Sometimes Rain; Polka dots and moonbeams; Sweetwater; Long
+   John; Bachafillen -- Stretchin' Out
+   Sunset in the mountains; Para mi esposa; Soul kosher; White cobra -- The Thing
+   Love is blue; Cookie man; Hey Jude; Love and peace; Fire water -- Powerhouse
+ - Not found elsewhere:  Scratch; Tribute to Charles; The shadow do; Isa's Chant
+641-2: The Complete Novus & Columbia Recordings Of Henry Threadgill & Air
+ - original sources:
+   King Porter stomp -- Air Lore 
+
+Fixed incorrect title:
+759,894-8,977,1273: "n" -> "Joshua Redman"
+
+Added musicians: (those not preexisting were assigned no. 0)
+142 Never on sunday (dizzy goes hollywood)
+209 duke's awakening (cool world) == 92 and others not listed in XLS
+491-3 Spookin' (maynard 63) and others not listed in XLS file
+902-3 great guns (maynard 64) and others not listed
+650-2 september moan (message from maynard) and others not listed
+1035-7 statement (message from maynard) and others not listed
+641-2 king porter stomp (air lore)
+782 improv #3 (cellar door)
+ - note that Directions (track "_4553") is from the first set on 16 Dec, not 3rd
+   set of 19 Dec, based on timings and file name; that could mean that the
+   track_id (if from same source) is wrong ("track_id": 148390)
+ - 8-9 It's about that time: 2nd set 17 Dec (cd2 tr3)
+ - what i say: Fri 18 Dec 2nd set (cd3 tr3)
+ - honky tonk: 17 Dec 2nd set (cd2 tr2)
+ - and others
+961 barbara's theme (jerry mulligan ...) and others
+659 tonight (tunes and topics pt 2)
+1354-5 hey jude (tunes and topics pt 2)
+1457 granada (tunes and topics pt 2)
+The Jazz Crusaders – The Pacific Jazz Quintet Studio Sessions
+	2-2 AQAE5Ep0S1zgB_mRjNKDpkmOcSj5wD96
+	3-3 AQAE-J6mTopwfEtkBc_T5HiE_NBEpF9-
+	3-5 AQAFnRKlODSO8cg45ngjYTe87PgKHYdD
+	etc. -> personnel added
+Thad Jones-Mel Lewis Orchestra (Mosaic 151)
+The Complete Pacific Jazz Joe Pass Quartet Sessions (Mosaic 207)
+http://www.jazzmusicarchives.com/album/joe-pass/the-complete-pacific-jazz-joe-pass-quartet-sessions(compilation)
+Argo, Emarcy And Verve Small Group Buddy Rich Sessions (Mosaic 232)
+Oliver Nelson - The Argo, Verve And Impulse Big Band Studio Sessions (Mosaic 233)
+The Complete Atlantic Studio Recordings Of The Modern Jazz Quartet 1956-64 (Mosaic 249)
+
+Duplicate fingerprints / mismatched tracks (see also duplicate_fprints_performan
+ces-1-SD.csv):
+AQAIJVQSa-oSfFOCHw9yH8kyPujEOnij:
+ - deleted spurious entry in 1990s*json (correct entry is in 1980s*json)
+ - also corrected lineups and CD of AQAI7EnETJGUNXCSLkZISseXF33yIV8- and 
+	AQAIUooShWGyKIOPLf7QH8kneUH0UPCD
+AQAHvosWkUfzI_wT_CN0HXV6NIfyTAUe:
+ - deleted spurious entry in 1990s*json (correct entry is in 1980s*json)
+AQAEUcmULEmSasLxw_qB_MAv4cNx_DtM:
+ - deleted spurious entry in 1980s*json (correct entry is in 1970s*json)
+AQAHB6kSLR9xZRApLce5wy9-4U_QcIUi:
+ - deleted spurious entry in 2010s*json (correct entry is in 2000s*json)
+ - see mail from 7/2/21:
+	Next bug found in partial matching:
+	Adam Birnbaum – Travels
+	Smalls Records – SRCD-0036
+	https://www.discogs.com/Adam-Birnbaum-Travels/release/13348452
+
+	Rodney Green Quartet – Live At Smalls
+	SmallsLIVE – SL0036
+	https://www.discogs.com/Rodney-Green-Quartet-Live-At-Smalls/release/5598936
+
+	Apart from sharing the label (Smalls), they share the same ID number
+	(0036), and by unhappy coincidence, the track in DTL1000, Camden (by Rodney
+	Green) is on both CDs!   The Birnbaum version is the correct one.
+AQAKzkmoZVGihMPzINzgHL2OHw96vDeO:
+ - deleted spurious entry in 1990s*json (correct entry is in 1980s*json)
+ - same CD as AQAIJVQSa-oSfFOCHw9yH8kyPujEOnij above
+AQAGIpSahkrx71j7HKePPQsXIT8mGuYl: 3 versions (2 in 2000s, 1 in 2010)
+ - deleted spurious entries in 2000s*json (correct entry is in 2010s*json)
+AQAJJ2mkREla6EdhHf3xQ16U40aP5siH:
+ - deleted spurious entry in 1990s*json (correct entry is in 1980s*json)
+ - same CD as AQAIJVQSa-oSfFOCHw9yH8kyPujEOnij above
+AQAHZ5GSJFGiJEkkDT4OAdSJ41OFHz_s:
+ - deleted spurious entry in 1990s*json (correct entry is in 1960s*json)
+ - added vocalist (Marrow)
+
+Other duplicate IDs in json:
+AQACE1piT0oyTL-FPvDBOLlwxgmucCIi
+ - Both in 2010s (Dome tr9 rather than The Dom tr7 -> deleted)
+AQAJMkqShEkSRRKFSDkSzHnxO2g0PtiJ
+ - Both in 1990s: G.K. #4 rather than G.K. #8 -> deleted
+AQAKBu60JJJxRhf2JOgT4dGI3cWzo4mS
+ - Same CD (1980s and 2000s; cd1 tr6 1980s rather than cd4 tr8 2000s -> delete)
+AQANwUmSaIoeJUmg5cFzpFv14A2-nPjg, AQANXkpGaeGk4OyMF72CZo8S4so_IdF3
+ - Removed spurious 1990s session entries (released 1989) 
+ - Added missing instrumentalists
+AQAJf0mUaEkSRZEG4HiOfMcPHrvxBMeD
+ - Removed spurious entry Roxy (correct track name is Foxy); both 2010s
+AQAKdFq2LEmoJAr642SwHzGVK9C2HNyJ
+ - Removed spurious 1990s entry (correct track name is "Red"; deleted "Gee")
+AQAGVMuWSFlCEVyLCymdQC9yKmh-9CzO, AQAI-NI0MtmSBFdwId8hrseaTA-yB_9R,
+	AQAJEMm0JIoiKkkQJjr2aGqCvIf4H7mY, AQANXlIULok0FaESJkJy_MflNOhDS3BH,
+	AQAEsFq4KEkSaUN_fMivI8mP-3iPR8eP
+ - All on same CD
+ - Recording dates 1999, 2000; identical entries in 1990s and 2000s files
+ - No change made
+AQALPkqULUqkRBPGeA7c5MF5PEGtIgyl
+ - CD9 tr 2 (not 5:1; 6:1; 8:5) - 4 versions in 11-CD box set
+ - Found lineup from a review (https://tedpanken.wordpress.com/2012/02/27/on-dexter-gordons-89th-birthday-my-liner-notes-for-the-complete-prestige-recordings-of-dexter-gordon/)
+AQAUq0kmJk5kPDA-QmV8PE-PTBfOow-8
+ - Removed entry Bluesport (kept Blueport); both 1960s
+
+Other wrong metadata:
+AQAI6kmyLEmkJEmkCF9-_DoeoeVAHb1x, AQAFhYkVKVKSSEHapsIpZcKYg9v4oBmz:
+ - CD didn't contain tracks (extra track on a compilation)
+ - replaced with compilation data and personnel
+ - also added personnel for AQAJE1PSZEmUJCma3IqA6NCR5lGKZ8xO
+
+Listed for fixing, but can't see why:
+	AQAK10vSkFGYoeLRPQ-adVzAJseri0hL (2000)
+	AQALnEymJIpGotkzHOHRPBt0IcdzPIsX (2010)
+	AQAMG0rSRIvECc2Db8ep47rg49rx6Ege (2010)
+	AQAP5no0MVESogh_fEd__BD_In7xHxea (2010)
+	AQAQT1SWRKGWSHiOR9uRLCORG32OPD70 (2010)
+	AQARDauWTEmiCcl1pHvAKZWPd8fIJEda (2010)
+ - error with missing solos in json: check if this is now fixed
+ - perhaps related to "unidentified date, c. ****"?
+ - Polina's mail 3/2/21 (see responses 8/2/21)
+	1: fingerprint AQAI6kmyLEmkJEmkCF9-_DoeoeVAHb1x, rdf has 3 solos, json has 0 solos
+	2: fingerprint AQAIUooShWGyKIOPLf7QH8kneUH0UPCD, rdf has 2 solos, json has 0 solos
+	3: fingerprint AQAQT1SWRKGWSHiOR9uRLCORG32OPD70, rdf has 1 solos, json has 0 solos
+	4: fingerprint AQAP5no0MVESogh_fEd__BD_In7xHxea, rdf has 1 solos, json has 0 solos
+	5: fingerprint AQARDauWTEmiCcl1pHvAKZWPd8fIJEda, rdf has 2 solos, json has 0 solos
+	6: fingerprint AQAK10vSkFGYoeLRPQ-adVzAJseri0hL, rdf has 2 solos, json has 0 solos
+	7: fingerprint AQAMG0rSRIvECc2Db8ep47rg49rx6Ege, rdf has 1 solos, json has 0 solos
+	8: fingerprint AQALnEymJIpGotkzHOHRPBt0IcdzPIsX, rdf has 8 solos, json has 0 solos
+ - could be bug in polina's code that doesn't output these due to date not being
+   parsed correctly
