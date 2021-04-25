@@ -10,8 +10,8 @@
 ##############################################################
 # paths
 
-RDFfile = "TTL/ILL1000_191101_bands.ttl"
-RDFnewfile = "TTL/ILL1000_191101_leaders.ttl"
+RDFfile = "TTL/ILL1000_bands.ttl"
+RDFnewfile = "TTL/ILL1000_leaders.ttl"
 
 
 ##############################################################

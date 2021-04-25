@@ -6,8 +6,8 @@
 ##############################################################
 
 DBfile = "DATA/2019.07.17_disco_all_linked.sqlite"
-RDFfile = "TTL/ILL1000_191101.ttl"
-RDFnewfile = "TTL/ILL1000_191101_bands.ttl"
+RDFfile = "TTL/ILL1000.ttl"
+RDFnewfile = "TTL/ILL1000_bands.ttl"
 
 DATAPATH = "DATA/DTL1000_1960-2020_json_v0/"
 JSON = ["1960s.csv_110_musinstr_1date.json", "1970s.csv_110_musinstr_1date.json", \

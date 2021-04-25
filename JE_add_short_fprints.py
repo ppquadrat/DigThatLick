@@ -8,8 +8,8 @@
 ###########################################################
 # Data paths
 
-RDFfile = "TTL/JE_PyRDF_musicians_leaders.ttl"
-RDFnewfile = "TTL/JE_PyRDF_fs.ttl"
+RDFfile = "TTL/JE_leaders.ttl"
+RDFnewfile = "TTL/JE_fprints.ttl"
 FPRINTfile = "DATA/id_dtl1000_idonly.csv"
 
 ###########################################################

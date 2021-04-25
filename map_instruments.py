@@ -8,14 +8,14 @@
 
 ##############################################################
 # paths
-PROPERTY_PREFIX = "lord"  # 'je', 'lord, 'orig'
+PROPERTY_PREFIX = "ill"  # 'je', 'lord', 'orig'
 
 if PROPERTY_PREFIX == "je":
-    RDFfile = "TTL/JE_PyRDF_fs.ttl"
-    RDFnewfile = "TTL/JE_PyRDF_191031_inst.ttl"
+    RDFfile = "TTL/JE_fprints.ttl"
+    RDFnewfile = "TTL/JE_inst.ttl"
 else:
-    RDFfile = "TTL/ILL1000_191101_session.ttl"
-    RDFnewfile = "TTL/ILL1000_191101_inst.ttl"
+    RDFfile = "TTL/ILL1000_leaders.ttl"
+    RDFnewfile = "TTL/ILL1000_inst.ttl"
     
 INST_LABELS = "DATA/orig2DTL_instruments.csv"
 

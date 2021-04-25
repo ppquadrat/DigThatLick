@@ -186,7 +186,7 @@ def get_JE_part(number):
 
 import json
 def write_json(data, jsonfile):
-    with open(jsonfile, mode='tw') as mmfile:
+    with open(jsonfile, mode='tw+') as mmfile:
         try:
             logging.info("writing to %s", jsonfile)
             json.dump(data, mmfile)
@@ -196,7 +196,7 @@ def write_json(data, jsonfile):
 
 import csv
 def write_csv(data, csvfile):
-    with open(csvfile, 'w', newline='') as f:
+    with open(csvfile, 'w+', newline='') as f:
         writer = csv.writer(f, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
         logging.info("writing to %s", csvfile)

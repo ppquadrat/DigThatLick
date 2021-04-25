@@ -10,7 +10,7 @@ JSON = ["1960s.csv_110_musinstr_1date.json", "1970s.csv_110_musinstr_1date.json"
         "1980s.csv_110_musinstr_1date.json", "1990s.csv_110_musinstr_1date.json", \
         "2000s.csv_110_musinstr_1date.json", "2010s.csv_110_musinstr_1date.json"]
 
-RDFnewfile = "TTL/ILL1000_191101.ttl"
+RDFnewfile = "TTL/ILL1000.ttl"
 
 
 ##############################################################
