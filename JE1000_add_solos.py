@@ -8,12 +8,12 @@
 ##############################################################
 # paths
 DATA_CSV = "DATA/solo_extract_meta_final.csv"
-RDFfile = "TTL/JE_PyRDF_191031_inst.ttl"
-RDFnewfile = "TTL/JE_PyRDF_191031_solos.ttl"
+RDFfile = "TTL/JE_inst.ttl"
+RDFnewfile = "TTL/JE_solos.ttl"
 INST_LABELS = "DATA/DTLtoJE_instruments.csv"
-NO_MUSICIANS_FILE = "LOG/JE_no_musicians_found.json"
-NO_MATCHING_INSTRUMENT_FILE = "LOG/JE_no_matching_instrument_found.json"
-MULTIPLE_MUSICIANS_FILE = "LOG/JE_multiple_musicians_found.json"
+NO_MUSICIANS_FILE = "PyLOG/JE_no_musicians_found.json"
+NO_MATCHING_INSTRUMENT_FILE = "PyLOG/JE_no_matching_instrument_found.json"
+MULTIPLE_MUSICIANS_FILE = "PyLOG/JE_multiple_musicians_found.json"
 
 
 ##############################################################
@@ -127,6 +127,7 @@ with open(DATA_CSV) as csvfile:
     csvreader.__next__()
 
     found = 0
+    solos_count = 0
     NO_MUSICIANS = []
     NO_MATCHING_INSTRUMENT = []
     MULTIPLE_MUSICIANS = []
@@ -154,6 +155,7 @@ with open(DATA_CSV) as csvfile:
                 g.add( (soloperformanceURI, RDF.type, DTL.SoloPerformance) )
                 g.add( (performanceURI, EVENT.sub_event, soloperformanceURI) )
                 g.add( (soloperformanceURI, DTL.solo_id, Literal(soloid)) )
+                solos_count += 1
                 logging.debug("created solo performance for track %s", track_title)
 
                 # add timestamps
@@ -236,6 +238,7 @@ with open(DATA_CSV) as csvfile:
 # stats
 logging.info("\n##############\nSTATS")
 logging.info("Processed %i tracks", found)
+logging.info("Created %i solos", solos_count)
 logging.info("No performer found: %i (%i%s)", len(NO_MUSICIANS), len(NO_MUSICIANS)/found*100, "%")
 logging.info("No matching instrument found: %i (%i%s)", len(NO_MATCHING_INSTRUMENT), len(NO_MATCHING_INSTRUMENT)/found*100, "%")
 logging.info("Multiple performers found: %i (%i%s)", len(MULTIPLE_MUSICIANS), len(MULTIPLE_MUSICIANS)/found*100, "%")
