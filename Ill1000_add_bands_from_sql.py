@@ -144,22 +144,24 @@ for filename in JSON:
     for count, key in enumerate(jsondict.keys()):
         entry = jsondict[key]
         logging.info("\n%i: %s, session: %s", count, key, entry['session_full_id'])
+        
+        if entry['session_full_id'] != "0": #  0 means that there is something wrong with the entry
 
-        sessionURI = find_by_id("sessions", entry['session_full_id'])
-        if g.value(sessionURI, MO.performer) == None:
-            processed += 1
-            # band
-            band_str = get_leader(entry['session_full_id'])
-            if exists_band(band_str):
-                bandURI = find_band(band_str)
-            else:
-                bandURI = create_band(band_str)
-                bands_added += 1
-                logging.debug("band %s added", band_str)
-            g.add( (sessionURI, MO.performer, bandURI) )
-            logging.debug("band: %s linked to session: %s", band_str, entry['session_full_id'])
-
-            
+            sessionURI = find_by_id("sessions", entry['session_full_id'])
+            if g.value(sessionURI, MO.performer) == None: # band needs to be added only once to a session
+                processed += 1
+                # band
+                band_str = get_leader(entry['session_full_id'])
+                if exists_band(band_str):
+                    bandURI = find_band(band_str)
+                else:
+                    bandURI = create_band(band_str)
+                    bands_added += 1
+                    logging.debug("band %s added", band_str)
+                g.add( (sessionURI, MO.performer, bandURI) )
+                logging.debug("band: %s linked to session: %s", band_str, entry['session_full_id'])
+    
+                
 
 ##################################################################
 # STATS
