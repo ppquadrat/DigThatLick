@@ -7,7 +7,7 @@
 
 ##############################################################
 # paths
-DATA_CSV = "DATA/solo_extract_meta_final.csv"
+DATA_CSV = "DATA/solo_extract_meta.csv"
 RDFfile = "TTL/JE_inst.ttl"
 RDFnewfile = "TTL/JE_solos.ttl"
 INST_LABELS = "DATA/DTLtoJE_instruments.csv"

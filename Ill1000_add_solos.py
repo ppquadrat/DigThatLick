@@ -9,9 +9,9 @@
 ##############################################################
 # paths
 from os.path import join
-DATA_CSV = "DATA/solo_extract_meta_final.csv"
-RDFfile = "TTL/ILL1000_191101_inst.ttl"
-RDFnewfile = "TTL/ILL1000_191101_solos.ttl"
+DATA_CSV = "DATA/solo_extract_meta.csv"
+RDFfile = "TTL/ILL1000_inst.ttl"
+RDFnewfile = "TTL/ILL1000_solos.ttl"
 NO_MUSICIANS_FILE = "PyLOG/Ill_no_musicians_found.json"
 NO_MATCHING_INSTRUMENT_FILE = "PyLOG/Ill_no_matching_instrument_found.json"
 MULTIPLE_MUSICIANS_FILE = "PyLOG/Ill_multiple_musicians_found.json"
@@ -21,7 +21,7 @@ import dtlutil
 
 # logging
 import logging
-MIN_LEVEL = logging.INFO
+MIN_LEVEL = logging.DEBUG
 dtlutil.setup_log(MIN_LEVEL)
 
 ##############################################################

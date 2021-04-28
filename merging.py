@@ -7,8 +7,8 @@
 
 ##############################################################
 # paths
-RDFfile_JE = "TTL/JE_PyRDF.ttl"
-RDFfile_ILL = "TTL/ILL1000_191101_LODpeople.ttl"
+RDFfile_JE = "TTL/JE_LODpeople.ttl"
+RDFfile_ILL = "TTL/ILL1000_LODpeople.ttl"
 RDFnewfile = "TTL/JE_ILL_merged.ttl"
 
 
