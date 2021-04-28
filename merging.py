@@ -147,7 +147,7 @@ count_merged = 0
 ##############################################################
 
 logging.debug("#########################")
-logging.info("\nmerged instruments: found %i matches", count_merged_all)
+logging.info("\nmerged: found %i matches", count_merged_all)
 logging.debug("merged graph originally had %i triples, now has %i triples", len_orig, len(g_merge))
 
 dtlutil.write_rdf(g_merge, RDFnewfile)
