@@ -1,0 +1,39 @@
+Reading rdf from TTL/JE_ILL_patched.ttl ...
+done
+original merged graph has 1190949 triples
+removing from 1 labels
+removed 0 labels, remaining 1
+removing from 1 release events
+removed 0 release events, remaining 1
+removing from 5 albums
+removed 0 albums, remaining 5
+removing from 554 releases
+removed 211 releases, remaining 343
+removing from 1049 media
+removed 457 media, remaining 592
+removing from 12424 tracks
+removed 11364 tracks, remaining 1060
+removing from 1263 bands
+removed 771 bands, remaining 492
+removing from 3404 sessions
+removed 2659 sessions, remaining 745
+removing from 390 instruments
+removed 158 instruments, remaining 232
+removing from 7328 musicians
+removed 4683 musicians, remaining 2645
+removing from 128217 performers
+removed 119034 performers, remaining 9183
+removing from 1726 solos
+removed 0 solos, remaining 1726
+removing from 9230 tunes
+removed 8198 tunes, remaining 1032
+removing from 12424 performances
+removed 11364 performances, remaining 1060
+removing from 12424 signals
+removed 11364 signals, remaining 1060
+#########################
+graph originally had 1190949 triples, dtl1000 graph has 424295 triples
+dtl1000 graph has 1060 Signals
+
+writing rdf to TTL/dtl1000.ttl
+done
