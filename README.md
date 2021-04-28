@@ -32,7 +32,7 @@ You can then perform the following additions:
 9. add solos for ILL with `Ill1000_add_solos.py`
 10. add styles with `add_styles.py`
 11. add links to LOD with `DTLtoLJpeople.py`
-12. merge JE and ILL repositories with `merge.py`. Musicians, Bands, Tunes and Instruments are merged by name/title. Sessions and performances are not merged since they do not overlap between JE and ILL. Merging is not necessary for the interface to work, just combining the two files would suffice.
+12. merge JE and ILL repositories with `merging.py`. Musicians, Bands, Tunes and Instruments are merged by name/title. Sessions and performances are not merged since they do not overlap between JE and ILL. Merging is not necessary for the interface to work, just combining the two files would suffice.
 13. patch metadata to resolve missing solo performers with `patch_metadata.py`. 
 
 ## DTL1000 dataset
