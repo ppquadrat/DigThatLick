@@ -8,9 +8,9 @@
 
 ##############################################################
 # paths
-RDFfile = "TTL/ILL1000_styles.ttl"
+RDFfile = "TTL/JE_styles.ttl"
 NTfile = "DATA/LJpeople.nt"
-RDFnewfile = "TTL/ILL1000_LODpeople.ttl"
+RDFnewfile = "TTL/JE_LODpeople.ttl"
 
 
 ##############################################################

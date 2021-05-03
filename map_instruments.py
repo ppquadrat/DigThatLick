@@ -8,7 +8,7 @@
 
 ##############################################################
 # paths
-PROPERTY_PREFIX = "lord"  # 'je', 'lord', 'orig'
+PROPERTY_PREFIX = "je"  # 'je', 'lord', 'orig'
 
 if PROPERTY_PREFIX == "je":
     RDFfile = "TTL/JE_fprints.ttl"
@@ -81,6 +81,9 @@ def map_inst_label(orig_label):
         map to dtl acronym
         add dtl label
     save rdf
+    
+    !!! this script does not merge instruments with the same dtl label. 
+    This might be the right thing to do and should be implemented here.
 """
 
 if PROPERTY_PREFIX == "lord":
