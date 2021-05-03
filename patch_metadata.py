@@ -18,7 +18,7 @@ import dtlutil
 
 # logging
 import logging
-MIN_LEVEL = logging.DEBUG
+MIN_LEVEL = logging.WARNING
 dtlutil.setup_log(MIN_LEVEL)
 
 ##############################################################
@@ -97,8 +97,8 @@ with open(PatchMetadataFile, 'r') as csvfile:
             logging.info("\nPatching solo performance for track %s, band %s, date %s", row[4], row[2], row[7])
 
             if ',' in musician:
-                logging.warning("too many musicians given: %s", musician)
-                logging.warning("skipping")
+                logging.info("too many musicians given: %s", musician)
+                logging.info("skipping")
             else:
 
                 # get solo performance
@@ -158,7 +158,7 @@ with open(PatchMetadataFile, 'r') as csvfile:
                         solo_instrument = g.value(solo_performance_uri, DTL.solo_instrument)
                         solo_inst_label = g.value(solo_instrument, DTL.dtl_inst_label)
                         if solo_instrument != instrumentURI:
-                            logging.warning("solo instrument in the repository is %s, in the patchfile it is %s -- patching", \
+                            logging.info("solo instrument in the repository is %s, in the patchfile it is %s -- patching", \
                                             solo_inst_label, instrument)
                             g.set( (solo_performance_uri, DTL.solo_instrument, instrumentURI) )
 
@@ -167,12 +167,21 @@ with open(PatchMetadataFile, 'r') as csvfile:
                         if solo_performer != None:
                             solo_musician = g.value(solo_performer, DTL.musician)
                             soloist_name = g.value(solo_musician, FOAF.name)
-                            logging.warning("solo performer %s is set for this solo performance -- deleting", soloist_name)
+                            logging.info("solo performer %s is set for this solo performance -- deleting", soloist_name)
                             # delete this solo performer
                             g.remove( (solo_performance_uri, DTL.solo_performer, solo_performer) )
                             
-                        logging.debug("adding solo performer %s playing %s", musician, instrument)
+                        logging.info("adding solo performer %s playing %s", musician, instrument)
                         g.add( (solo_performance_uri, DTL.solo_performer, performerURI) )
+                        
+                        # remove possible solo performers
+                        for psperf in g.objects(solo_performance_uri, DTL.possible_solo_performer):
+                            psmusician = g.value(psperf, DTL.musician)
+                            logging.info("removing possible solo performer %s", g.value(psmusician, FOAF.name))
+                        tcount = len(g)
+                        g.remove( (solo_performance_uri, DTL.possible_solo_performer, None) )
+                        if len(g) - tcount > 0:
+                            logging.debug("%i triples removed", len(g) - tcount)
                                         
 ################################################          
 
