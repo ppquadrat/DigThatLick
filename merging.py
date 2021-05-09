@@ -118,11 +118,13 @@ count_merged = 0
 # merge musicians
 logging.info("\nmerging musicians")
 for uri_JE in gJE.subjects(RDF.type, MO.MusicArtist):
-    for uri_ILL in gILL.subjects(RDF.type, MO.MusicArtist):
-        if same_musicians(uri_JE, uri_ILL):
-            logging.debug("merging musicians: %s   and   %s", gJE.value(uri_JE, FOAF.name), gILL.value(uri_ILL, FOAF.name))
-            merge(uri_JE, uri_ILL)
-            count_merged += 1
+    if not (uri_JE, RDF.type, MO.MusicGroup) in gJE:
+        for uri_ILL in gILL.subjects(RDF.type, MO.MusicArtist):
+            if not (uri_ILL, RDF.type, MO.MusicGroup) in gILL:
+                if same_musicians(uri_JE, uri_ILL):
+                    logging.debug("merging musicians: %s   and   %s", gJE.value(uri_JE, FOAF.name), gILL.value(uri_ILL, FOAF.name))
+                    merge(uri_JE, uri_ILL)
+                    count_merged += 1
 logging.info("musicians merged, found %i matches", count_merged)
 logging.debug("merged graph has %i triples", len(g_merge))
 
