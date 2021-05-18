@@ -58,8 +58,8 @@ for fprint in dtl1000_fprints:
         for dict in dtl1000list:
             if dict['file'] == fprint:
                 json_solos = []
-                if "segment_solo_#metadata_full_compressed_v6_csv" in dict.keys():
-                    json_solos = dict["segment_solo_#metadata_full_compressed_v6_csv"]
+                if "solo_#metadata_full_compressed_v7_csv" in dict.keys():
+                    json_solos = dict["solo_#metadata_full_compressed_v7_csv"]
                     if len(solos)!=len(json_solos):
                         print("%i: fingerprint %s, rdf has %i solos, json has %i solos" %(count, fprint, len(solos), len(json_solos)))
                         count +=1
