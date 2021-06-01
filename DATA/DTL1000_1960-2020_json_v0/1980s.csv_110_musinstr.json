@@ -3159,6 +3159,12 @@
                     "instrument_id": 10
                 },
                 {
+                    "musician_name": "Sonny Stitt",
+                    "musician_id": 8993,
+                    "instrument_name": "as",
+                    "instrument_id": 10
+                },
+                {
                     "musician_name": "Chuck Domanico",
                     "musician_id": 7644,
                     "instrument_name": "b",
@@ -3197,6 +3203,12 @@
                 {
                     "musician_name": "Art Pepper",
                     "musician_id": 15962,
+                    "instrument_name": "as",
+                    "instrument_id": 10
+                },
+                {
+                    "musician_name": "Sonny Stitt",
+                    "musician_id": 8993,
                     "instrument_name": "as",
                     "instrument_id": 10
                 },

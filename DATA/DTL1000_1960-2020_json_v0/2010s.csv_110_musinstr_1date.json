@@ -40752,7 +40752,7 @@
                     "musician_name": "Ron Horton",
                     "musician_id": 635,
                     "instrument_name": "flhrn",
-                    "instrument_id": 14
+                    "instrument_id": 38
                 },
                 {
                     "musician_name": "Michael Sarin",
@@ -40812,7 +40812,7 @@
                     "musician_name": "Ron Horton",
                     "musician_id": 635,
                     "instrument_name": "flhrn",
-                    "instrument_id": 14
+                    "instrument_id": 38
                 },
                 {
                     "musician_name": "Michael Sarin",
@@ -40872,7 +40872,7 @@
                     "musician_name": "Ron Horton",
                     "musician_id": 635,
                     "instrument_name": "flhrn",
-                    "instrument_id": 14
+                    "instrument_id": 38
                 },
                 {
                     "musician_name": "Michael Sarin",
@@ -40932,7 +40932,7 @@
                     "musician_name": "Ron Horton",
                     "musician_id": 635,
                     "instrument_name": "flhrn",
-                    "instrument_id": 14
+                    "instrument_id": 38
                 },
                 {
                     "musician_name": "Michael Sarin",
@@ -41197,6 +41197,18 @@
                     "musician_id": 629,
                     "instrument_name": "perc",
                     "instrument_id": 61
+                },
+                {
+                    "musician_name": "Steve Wilson",
+                    "musician_id": 6626,
+                    "instrument_name": "sop",
+                    "instrument_id": 39
+                },
+                {
+                    "musician_name": "Steve Wilson",
+                    "musician_id": 6626,
+                    "instrument_name": "as",
+                    "instrument_id": 10
                 }
             ],
             "time_location": "Stamford, CT, unidentified date, c. 2015",
