@@ -51,9 +51,9 @@ logging.debug("\ngraph has %i triples", len(g))
 
 logging.info("\nReading fingerprints from %s", FPRINTfile)
 with open(FPRINTfile, 'r') as csvfile:
-    csvreader = csv.reader(csvfile, delimiter=',')
-    count = 0
-    for row in csvreader:
+     csvreader = csv.reader(csvfile, delimiter=',')
+     count = 0
+     for row in csvreader:
         if len(row) > 0 and row[0].startswith(".."):
             filename = row[0].split("/")[3]
             
@@ -66,8 +66,8 @@ with open(FPRINTfile, 'r') as csvfile:
                 cd = int(fsplit[2])
                 tnum = int(fsplit[3])
                 fingerprint = row[1]
-
-
+    
+    
                 # find signal
                 qstr =  """SELECT ?trackt ?signal
                         WHERE {
