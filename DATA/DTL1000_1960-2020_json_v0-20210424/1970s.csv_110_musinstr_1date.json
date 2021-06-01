@@ -4557,12 +4557,6 @@
             "audioid": "AQAMgFoUJkkToUrJ4VKG_Eh2_CiPqVmT",
             "musician_instrument": [
                 {
-                    "musician_name": "Zoot Sims",
-                    "musician_id": 2363,
-                    "instrument_name": "ts",
-                    "instrument_id": 9
-                },
-                {
                     "musician_name": "Steve Gilmore",
                     "musician_id": 2973,
                     "instrument_name": "b",

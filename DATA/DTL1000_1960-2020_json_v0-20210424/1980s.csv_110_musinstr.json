@@ -3159,12 +3159,6 @@
                     "instrument_id": 10
                 },
                 {
-                    "musician_name": "Sonny Stitt",
-                    "musician_id": 8993,
-                    "instrument_name": "as",
-                    "instrument_id": 10
-                },
-                {
                     "musician_name": "Chuck Domanico",
                     "musician_id": 7644,
                     "instrument_name": "b",
@@ -3203,12 +3197,6 @@
                 {
                     "musician_name": "Art Pepper",
                     "musician_id": 15962,
-                    "instrument_name": "as",
-                    "instrument_id": 10
-                },
-                {
-                    "musician_name": "Sonny Stitt",
-                    "musician_id": 8993,
                     "instrument_name": "as",
                     "instrument_id": 10
                 },
@@ -8625,7 +8613,7 @@
                     "instrument_id": 119
                 }
             ],
-            "time_location": "Chicago, October 1989",
+            "time_location": "Chicago, October 5-7 & 29, 1989",
             "track_id": 624004
         },
         "_1005": {
@@ -8787,7 +8775,7 @@
                     "instrument_id": 119
                 }
             ],
-            "time_location": "Chicago, October 1989",
+            "time_location": "Chicago, October 5-7 & 29, 1989",
             "track_id": 624005
         },
         "_4514": {
@@ -8949,7 +8937,7 @@
                     "instrument_id": 119
                 }
             ],
-            "time_location": "Chicago, October 1989",
+            "time_location": "Chicago, October 5-7 & 29, 1989",
             "track_id": 624002
         },
         "_20847": {
@@ -9111,7 +9099,7 @@
                     "instrument_id": 119
                 }
             ],
-            "time_location": "Chicago, October 1989",
+            "time_location": "Chicago, October 5-7 & 29, 1989",
             "track_id": 624003
         },
         "_34233": {
@@ -9273,7 +9261,7 @@
                     "instrument_id": 119
                 }
             ],
-            "time_location": "Chicago, October 1989",
+            "time_location": "Chicago, October 5-7 & 29, 1989",
             "track_id": 624007
         },
         "_212503": {
@@ -9435,7 +9423,7 @@
                     "instrument_id": 119
                 }
             ],
-            "time_location": "Chicago, October 1989",
+            "time_location": "Chicago, October 5-7 & 29, 1989",
             "track_id": 624001
         },
         "_212504": {
@@ -9597,7 +9585,7 @@
                     "instrument_id": 119
                 }
             ],
-            "time_location": "Chicago, October 1989",
+            "time_location": "Chicago, October 5-7 & 29, 1989",
             "track_id": 624006
         },
         "_212505": {
@@ -9759,7 +9747,7 @@
                     "instrument_id": 119
                 }
             ],
-            "time_location": "Chicago, October 1989",
+            "time_location": "Chicago, October 5-7 & 29, 1989",
             "track_id": 624008
         },
         "_7990": {

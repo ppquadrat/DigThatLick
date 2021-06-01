@@ -1,0 +1,374 @@
+$ diff 1980s.csv_110_musinstr_1date.json 1980s.csv_110_musinstr.json
+8616c8616
+<             "time_location": "Chicago, October 1989",
+---
+>             "time_location": "Chicago, October 5-7 & 29, 1989",
+8778c8778
+<             "time_location": "Chicago, October 1989",
+---
+>             "time_location": "Chicago, October 5-7 & 29, 1989",
+8940c8940
+<             "time_location": "Chicago, October 1989",
+---
+>             "time_location": "Chicago, October 5-7 & 29, 1989",
+9102c9102
+<             "time_location": "Chicago, October 1989",
+---
+>             "time_location": "Chicago, October 5-7 & 29, 1989",
+9264c9264
+<             "time_location": "Chicago, October 1989",
+---
+>             "time_location": "Chicago, October 5-7 & 29, 1989",
+9426c9426
+<             "time_location": "Chicago, October 1989",
+---
+>             "time_location": "Chicago, October 5-7 & 29, 1989",
+9588c9588
+<             "time_location": "Chicago, October 1989",
+---
+>             "time_location": "Chicago, October 5-7 & 29, 1989",
+9750c9750
+<             "time_location": "Chicago, October 1989",
+---
+>             "time_location": "Chicago, October 5-7 & 29, 1989",
+
+
+
+
+
+$ diff 1990s.csv_110_musinstr_1date.json 1990s.csv_110_musinstr.json
+13182c13182
+<             "time_location": "New Orleans, LA & New York, June & November 1991",
+---
+>             "time_location": "New Orleans, LA, June 1991 & New York, November 1991",
+13932c13932
+<             "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
+---
+>             "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+13992c13992
+<             "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
+---
+>             "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+14052c14052
+<             "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
+---
+>             "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+14112c14112
+<             "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
+---
+>             "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+14172c14172
+<             "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
+---
+>             "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+14232c14232
+<             "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
+---
+>             "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+14292c14292
+<             "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
+---
+>             "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+14352c14352
+<             "time_location": "Bromma, June 13, 15, 26 & 28, 1995",
+---
+>             "time_location": "Bromma, June 13, 15, 26, 28, 1995",
+14400c14400
+<             "time_location": "New York, September 24, 26, and October 3, 1994",
+---
+>             "time_location": "New York, September 24 & 26, and October 3, 1994",
+14448c14448
+<             "time_location": "New York, September 24, 26, and October 3, 1994",
+---
+>             "time_location": "New York, September 24 & 26, and October 3, 1994",
+18006c18006
+<             "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
+---
+>             "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+18072c18072
+<             "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
+---
+>             "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+18138c18138
+<             "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
+---
+>             "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+18198c18198
+<             "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
+---
+>             "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+18270c18270
+<             "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
+---
+>             "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+18342c18342
+<             "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
+---
+>             "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+18408c18408
+<             "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
+---
+>             "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+18468c18468
+<             "time_location": "Chicago, June 13, 14, July 5, August 1 & 2, 1993",
+---
+>             "time_location": "Chicago, June 13 & 14, July 5 & August 1 & 2, 1993",
+
+
+
+
+
+$ diff 2000s.csv_110_musinstr_1date.json 2000s.csv_110_musinstr.json
+10050c10050
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+31524c31524
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31560c31560
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31596c31596
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31632c31632
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31668c31668
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31704c31704
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31740c31740
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31776c31776
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31812c31812
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31848c31848
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+31884c31884
+<             "time_location": "Roy O. Disney Music Hall, Valencia CA & Goodspeed Hall, University of Chicago, Chicago, IL, March & May 2008",
+---
+>             "time_location": "Roy O. Disney Music Hall, Valencia CA, March 2008 & Goodspeed Hall, University of Chicago, Chicago, IL, May 2008",
+41106c41106
+<             "time_location": "Brooklyn, NY, January 26, 27 & June 21, 2007",
+---
+>             "time_location": "Brooklyn, NY, January 26 & 27, June 21, 2007",
+63570c63570
+<             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004",
+---
+>             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004 (*)",
+63612c63612
+<             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004",
+---
+>             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004 (*)",
+63654c63654
+<             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004",
+---
+>             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004 (*)",
+63696c63696
+<             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004",
+---
+>             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004 (*)",
+63738c63738
+<             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004",
+---
+>             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004 (*)",
+63780c63780
+<             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004",
+---
+>             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004 (*)",
+63822c63822
+<             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004",
+---
+>             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004 (*)",
+63864c63864
+<             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004",
+---
+>             "time_location": "Paramus, N.J., March 13, 2003-October 25, 2004 (*)",
+72030c72030
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+72054c72054
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+72078c72078
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+72102c72102
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+72126c72126
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+72150c72150
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+72174c72174
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+72198c72198
+<             "time_location": "Los Angeles, January 24, 25, March 24 & 25, 2000",
+---
+>             "time_location": "Los Angeles, January 24 & 25 and March 24 & 25, 2000",
+72510c72510
+<             "time_location": "Hollywood, CA, January 21 to February 19, 2002",
+---
+>             "time_location": "Hollywood, CA, January 21-26 & February 17-19, 2002",
+72582c72582
+<             "time_location": "Hollywood, CA, January 21 to February 19, 2002",
+---
+>             "time_location": "Hollywood, CA, January 21-26 & February 17-19, 2002",
+72642c72642
+<             "time_location": "Hollywood, CA, January 21 to February 19, 2002",
+---
+>             "time_location": "Hollywood, CA, January 21-26 & February 17-19, 2002",
+72714c72714
+<             "time_location": "Hollywood, CA, January 21 to February 19, 2002",
+---
+>             "time_location": "Hollywood, CA, January 21-26 & February 17-19, 2002",
+72774c72774
+<             "time_location": "Hollywood, CA, January 21 to February 19, 2002",
+---
+>             "time_location": "Hollywood, CA, January 21-26 & February 17-19, 2002",
+72840c72840
+<             "time_location": "Hollywood, CA, January 21 to February 19, 2002",
+---
+>             "time_location": "Hollywood, CA, January 21-26 & February 17-19, 2002",
+75786c75786
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+75834c75834
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+75876c75876
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+75918c75918
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+75960c75960
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+76002c76002
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+76044c76044
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+76086c76086
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+76128c76128
+<             "time_location": "Charlotte, NC, October 8, December 1 & 8, 2006",
+---
+>             "time_location": "Charlotte, NC, October 8 and December 1 & 8, 2006",
+
+
+
+
+$ diff 2010s.csv_110_musinstr_1date.json 2010s.csv_110_musinstr.json
+22122c22122
+<             "time_location": "Berkeley, CA & New York, January & March 2013",
+---
+>             "time_location": "Berkeley, CA, January 2013 & New York, March 2013",
+22200c22200
+<             "time_location": "Berkeley, CA & New York, January & March 2013",
+---
+>             "time_location": "Berkeley, CA, January 2013 & New York, March 2013",
+22272c22272
+<             "time_location": "Berkeley, CA & New York, January & March 2013",
+---
+>             "time_location": "Berkeley, CA, January 2013 & New York, March 2013",
+22344c22344
+<             "time_location": "Berkeley, CA & New York, January & March 2013",
+---
+>             "time_location": "Berkeley, CA, January 2013 & New York, March 2013",
+28020c28020
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28098c28098
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28176c28176
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28254c28254
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28332c28332
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28410c28410
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28488c28488
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28566c28566
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28644c28644
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28722c28722
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28800c28800
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28878c28878
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+28956c28956
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
+29034c29034
+<             "time_location": "Brooklyn, NY & New York, June 9 2015 - June 14, 2016",
+---
+>             "time_location": "Brooklyn, NY, June 9 & 10 & September 1, 2 & 3, 2015 & New York, June 13 & 14, 2016",
