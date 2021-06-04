@@ -21,7 +21,7 @@ import dtlutil
 
 # logging
 import logging
-MIN_LEVEL = logging.DEBUG
+MIN_LEVEL = logging.WARNING
 dtlutil.setup_log(MIN_LEVEL)
 
 ##############################################################

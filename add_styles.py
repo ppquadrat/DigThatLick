@@ -8,8 +8,12 @@
 ###########################################################
 # Data paths
 
-RDFfile = "TTL/JE_solos.ttl"
-RDFnewfile = "TTL/JE_styles.ttl"
+#RDFfile = "TTL/JE_solos.ttl"
+#RDFnewfile = "TTL/JE_styles.ttl"
+
+RDFfile = "TTL/ILL1000_solos.ttl"
+RDFnewfile = "TTL/ILL_styles.ttl"
+
 STYLESfile = "DATA/styles.csv"
 
 ###########################################################

@@ -8,7 +8,7 @@
 ##############################################################
 # paths
 RDFfile_JE = "TTL/JE_LODpeople.ttl"
-RDFfile_ILL = "TTL/ILL1000_LODpeople.ttl"
+RDFfile_ILL = "TTL/ILL_LODpeople.ttl"
 RDFnewfile = "TTL/JE_ILL_merged.ttl"
 
 
