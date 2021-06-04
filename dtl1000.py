@@ -10,12 +10,13 @@ Created on Sun Jan 31 21:15:40 2021
 #%%
 
 RDFfile_merged = "TTL/JE_ILL_patched.ttl"
-DTL1000json = "DATA/dtl_1000.json"
 RDFnewfile = "TTL/dtl1000.ttl"
+FPRINTfile = "DATA/id_dtl1000_idonly.csv"
 
 
 import dtlutil
 import copy
+import csv
 
 # logging
 import logging
@@ -39,15 +40,18 @@ gDTL1000 = dtlutil.create_graph()
 #%%
 gDTL1000 = copy.deepcopy(g)
 
-##############################################################
-#%% read in json file
-import json
-with open(DTL1000json, 'r') as jsonfile:
-    dtl1000list = json.load(jsonfile)
- 
+    
+#%% read in fingerprints 
+
 dtl1000_fprints = []
-for dict in dtl1000list:
-    dtl1000_fprints.append(dict['file'])
+logging.info("\nReading fingerprints from %s", FPRINTfile)
+with open(FPRINTfile, 'r') as csvfile:
+    csvreader = csv.reader(csvfile, delimiter=',')
+    count = 0
+    for row in csvreader:
+       if len(row) > 0 and row[0].startswith(".."):
+           fingerprint = row[1]
+           dtl1000_fprints.append(fingerprint)
 
 ##############################################################
 #%% for a uri get the list of connected fingerprints
