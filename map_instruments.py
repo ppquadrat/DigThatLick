@@ -14,8 +14,8 @@ if PROPERTY_PREFIX == "je":
     RDFfile = "TTL/JE_fprints.ttl"
     RDFnewfile = "TTL/JE_inst.ttl"
 else:
-    RDFfile = "TTL/ILL1000_leaders.ttl"
-    RDFnewfile = "TTL/ILL1000_inst.ttl"
+    RDFfile = "TTL/ILL_leaders.ttl"
+    RDFnewfile = "TTL/ILL_inst.ttl"
     
 INST_LABELS = "DATA/orig2DTL_instruments.csv"
 

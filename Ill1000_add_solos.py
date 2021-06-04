@@ -10,8 +10,8 @@
 # paths
 from os.path import join
 DATA_CSV = "DATA/solo_extract_meta.csv"
-RDFfile = "TTL/ILL1000_inst.ttl"
-RDFnewfile = "TTL/ILL1000_solos.ttl"
+RDFfile = "TTL/ILL_inst.ttl"
+RDFnewfile = "TTL/ILL_solos.ttl"
 NO_MUSICIANS_FILE = "PyLOG/Ill_no_musicians_found.json"
 NO_MATCHING_INSTRUMENT_FILE = "PyLOG/Ill_no_matching_instrument_found.json"
 MULTIPLE_MUSICIANS_FILE = "PyLOG/Ill_multiple_musicians_found.json"

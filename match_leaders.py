@@ -13,8 +13,8 @@
 #RDFfile = 'TTL/JE_PyRDF.ttl'
 #RDFnewfile = 'TTL/JE_leaders.ttl'
 
-RDFfile = "TTL/ILL1000_bands.ttl"
-RDFnewfile = "TTL/ILL1000_leaders.ttl"
+RDFfile = "TTL/ILL_bands.ttl"
+RDFnewfile = "TTL/ILL_leaders.ttl"
 
 
 ##############################################################
