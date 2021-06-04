@@ -7,12 +7,12 @@
 
 DBfile = "DATA/2019.07.17_disco_all_linked.sqlite"
 RDFfile = "TTL/ILL1000.ttl"
-RDFnewfile = "TTL/ILL1000_bands.ttl"
+RDFnewfile = "TTL/ILL_bands.ttl"
 
 DATAPATH = "DATA/DTL1000_1960-2020_json_v0/"
-JSON = ["1960s.csv_110_musinstr_1date.json", "1970s.csv_110_musinstr_1date.json", \
-        "1980s.csv_110_musinstr_1date.json", "1990s.csv_110_musinstr_1date.json", \
-        "2000s.csv_110_musinstr_1date.json", "2010s.csv_110_musinstr_1date.json"]
+JSON = ["1960s.csv_110_musinstr.json", "1970s.csv_110_musinstr.json", \
+        "1980s.csv_110_musinstr.json", "1990s.csv_110_musinstr.json", \
+        "2000s.csv_110_musinstr.json", "2010s.csv_110_musinstr.json"]
 
 
 ##############################################################
