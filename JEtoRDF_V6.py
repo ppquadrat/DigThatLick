@@ -14,7 +14,7 @@ January - June 2019"""
 ##DATA_CSV = "/import/c4dm-datasets/C4DM Music Collection/Jazz Encyclopedia/JECompleteIndex_cleaned.csv"
 
 DATA_CSV = "DATA/JECompleteIndex_cleaned.csv"
-#DATA_CSV = "test_JEtoRDF_small.csv"
+#DATA_CSV = "DATA/test_JEtoRDF_small.csv"
 
 rdffilename = 'TTL/JE_PyRDF.ttl'
 rdffilename_tmp = 'TTL/JE_PyRDF_tmp.ttl'

@@ -8,11 +8,12 @@
 ###########################################################
 # Data paths
 
-#RDFfile = "TTL/JE_solos.ttl"
-#RDFnewfile = "TTL/JE_styles.ttl"
-
-RDFfile = "TTL/ILL_solos.ttl"
-RDFnewfile = "TTL/ILL_styles.ttl"
+if PROPERTY_PREFIX == "je":
+	RDFfile = "TTL/JE_solos.ttl"
+	RDFnewfile = "TTL/JE_styles.ttl"
+else:
+	RDFfile = "TTL/ILL_solos.ttl"
+	RDFnewfile = "TTL/ILL_styles.ttl"
 
 STYLESfile = "DATA/styles.csv"
 

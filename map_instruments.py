@@ -8,7 +8,7 @@
 
 ##############################################################
 # paths
-PROPERTY_PREFIX = "lord"  # 'je', 'lord', 'orig'
+#PROPERTY_PREFIX = "lord"  # 'je', 'lord', 'orig'
 
 if PROPERTY_PREFIX == "je":
     RDFfile = "TTL/JE_fprints.ttl"

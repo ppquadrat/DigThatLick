@@ -1,8 +1,8 @@
-    # Python3
+# Python3
 
 """ Import short audio fingerprints for JE into RDF
 
-    Polina Proutskova, August-Seeptember 2019
+    Polina Proutskova, August-September 2019
 """
 
 ###########################################################

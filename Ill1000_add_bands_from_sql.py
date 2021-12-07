@@ -5,7 +5,8 @@
 
 ##############################################################
 
-DBfile = "DATA/2019.07.17_disco_all_linked.sqlite"
+#DBfile = "DATA/2019.07.17_disco_all_linked.sqlite"
+DBfile = "DATA/2019.10.24_disco.sqlite"
 RDFfile = "TTL/ILL1000.ttl"
 RDFnewfile = "TTL/ILL_bands.ttl"
 
