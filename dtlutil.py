@@ -57,6 +57,7 @@ def setup_log(MIN_LEVEL = logging.DEBUG):
     file_hdlr_err.setFormatter(file_formatter_err)
 
     rootLogger = logging.getLogger()
+    rootLogger.handlers.clear()        #SD added to prevent duplicate entries
     rootLogger.addHandler(stdout_hdlr)
     rootLogger.addHandler(stderr_hdlr)
     rootLogger.addHandler(file_hdlr_std)
