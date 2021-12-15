@@ -47,6 +47,7 @@ def find_instrument(inst):
 
 ALBUM_TITLES = dtlutil.get_JE_parts()
 
+# no longer needed as tracks are identified by fprint
 def find_performance_from_JEid(JEid):
     # parse JE id
     # example JE id: JE-4-077-18
@@ -86,6 +87,12 @@ def find_performance_from_JEid(JEid):
             logging.debug("performance found for track %s: %s", track_title, performanceURI)
             return (performanceURI, track_title)
                                     
+def find_signal_by_fingerprint(fprint):
+    return g.value(subject=None, predicate=DTL.fingerprint_short, object=Literal(fprint), default=None, any=False)
+
+def find_performance(signalURI):
+    return g.value(subject=signalURI, predicate=DTL.captures, object=None, default=None, any=False)
+
 
 def create_time_interval(start, end, timeline=TL.UniversalTimeline):
     eventnode = rdflib.BNode()
@@ -135,17 +142,23 @@ with open(DATA_CSV) as csvfile:
     for count, row in enumerate(csvreader):
         logging.info("\nprocessing row %i:", count + 1)
 
-        if row[1].startswith("JE-"):
-            JEid = row[1]
-            soloid = row[0].replace(".csv","")
-            instrument = row[2]
-            start = row[3]
-            end = row[4]
-            logging.info("JE id: %s", JEid)
-            logging.info("instrument: %s", instrument)
+		#if row[1].startswith("JE-"):
+        fprint = row[1]
+        soloid = row[0].replace(".csv","")
+        instrument = row[2]
+        start = row[3]
+        end = row[4]
+        logging.info("fprint: %s", fprint)
+        logging.info("instrument: %s", instrument)
+        signalURI = find_signal_by_fingerprint(fprint)
 
+        if signalURI is not None:
             # find performance
-            performanceURI, track_title = find_performance_from_JEid(JEid)
+            #performanceURI, track_title = find_performance_from_JEid(JEid)
+            trackURI = g.value(subject=signalURI, predicate=MO.published_as, object=None, default=None, any=False)
+            track_title = g.value(subject=trackURI, predicate=DC.title, object=None, default=None, any=False)
+            logging.debug("track title: %s", track_title)
+            performanceURI = find_performance(signalURI)
 
             if len(str(performanceURI)) > 0:
                 found +=1
@@ -207,22 +220,22 @@ with open(DATA_CSV) as csvfile:
                 elif len(candidates) < 1:
                     if not exist_performers:
                         # no performers found
-                        NO_MUSICIANS.append( (track_title, JEid, instrument) )
-                        logging.warning("No performers found on track %s with fingerprint %s", track_title, JEid)
+                        NO_MUSICIANS.append( (track_title, fprint, instrument) )
+                        logging.warning("No performers found on track %s with fingerprint %s", track_title, fprint)
                     else:
                         # no performers with a matching instrument found
-                        NO_MATCHING_INSTRUMENT.append( (track_title, JEid, instrument) )
-                        logging.warning("No performers found playing %s on track %s with fingerprint %s", instrument, track_title, JEid)
+                        NO_MATCHING_INSTRUMENT.append( (track_title, fprint, instrument) )
+                        logging.warning("No performers found playing %s on track %s with fingerprint %s", instrument, track_title, fprint)
                 elif len(candidates) > 1:
                     # multiple performers found
-                    logging.warning("Multiple performers found playing %s on track %s with id %s:", instrument, track_title, JEid)
+                    logging.warning("Multiple performers found playing %s on track %s with id %s:", instrument, track_title, fprint)
                     names_list = []
                     for performer in candidates:
                         musician = g.value(subject=performer, predicate=DTL.musician, object=None, default=None, any=False)
                         name = g.value(subject=musician, predicate=FOAF.name, object=None, default=None, any=False)
                         logging.warning("%s", name)
                         names_list.append(name)
-                    MULTIPLE_MUSICIANS.append( (track_title, JEid, instrument, names_list) )
+                    MULTIPLE_MUSICIANS.append( (track_title, fprint, instrument, names_list) )
                     # add possible solo performers
                     for performer in candidates:
                         musician = g.value(subject=performer, predicate=DTL.musician, object=None, default=None, any=False)
