@@ -72,6 +72,8 @@ def get_performer_fprints(uri):
     fprints = []
     for performance in g.subjects(MO.performer, uri):
         fprints = fprints + get_performance_fprints(performance)
+    for performance in g.subjects(DTL.possible_solo_performer, uri):
+        fprints = fprints + get_soloperformance_fprints(performance)
     return(list(set(fprints)))
     
 def get_musician_fprints(uri):
@@ -353,5 +355,3 @@ logging.info("dtl1000 graph has %i Signals", len(list(gDTL1000.subjects(RDF.type
 dtlutil.write_rdf(gDTL1000, RDFnewfile)
 
 
-                
-            
