@@ -2198,13 +2198,13 @@
         },
         "_43077": {
             "album": "Perceptual",
-            "labelid": "Blue_Note_7243_5_23571-2-3",
+            "labelid": "Blue_Note_7243-5-23571-2-3",
             "trackname": "Reconciliation",
             "release_id": "16107",
             "session_full_id": "B8474",
             "session_id": "7973",
             "tune_id": "43077",
-            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243_5_23571-2-3/3 Reconciliation.aiff",
+            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243-5-23571-2-3/3 Reconciliation.aiff",
             "match_cost": 0,
             "title": "Reconciliation",
             "segmentid": "AQAMrJIiZmOK6NHQ9CCPHz6h48GD7dAD_0.00.00.000000-0.06.44.333333\"",
@@ -2312,13 +2312,13 @@
         },
         "_49009": {
             "album": "Perceptual",
-            "labelid": "Blue_Note_7243_5_23571-2-3",
+            "labelid": "Blue_Note_7243-5-23571-2-3",
             "trackname": "Perceptual",
             "release_id": "16107",
             "session_full_id": "B8474",
             "session_id": "7973",
             "tune_id": "49009",
-            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243_5_23571-2-3/1 Perceptual.aiff",
+            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243-5-23571-2-3/1 Perceptual.aiff",
             "match_cost": 0,
             "title": "Perceptual",
             "segmentid": "AQAMLWKSKMsUSvh-9HAG_yhbop9h49oN_0.00.00.000000-0.06.28.533333\"",
@@ -2426,13 +2426,13 @@
         },
         "_49010": {
             "album": "Perceptual",
-            "labelid": "Blue_Note_7243_5_23571-2-3",
+            "labelid": "Blue_Note_7243-5-23571-2-3",
             "trackname": "Evinrude-fifty [Trembling]",
             "release_id": "16107",
             "session_full_id": "B8474",
             "session_id": "7973",
             "tune_id": "49010",
-            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243_5_23571-2-3/2 Evinrude-Fifty (Trembling).aiff",
+            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243-5-23571-2-3/2 Evinrude-Fifty (Trembling).aiff",
             "match_cost": 2,
             "title": "Evinrude-fifty [Trembling]",
             "segmentid": "AQAO80mUJVWiKFES5I9xfnDEmtj-4S-O_0.00.00.000000-0.07.56.533333\"",
@@ -2540,13 +2540,13 @@
         },
         "_49012": {
             "album": "Perceptual",
-            "labelid": "Blue_Note_7243_5_23571-2-3",
+            "labelid": "Blue_Note_7243-5-23571-2-3",
             "trackname": "Crooked creek",
             "release_id": "16107",
             "session_full_id": "B8474",
             "session_id": "7973",
             "tune_id": "49012",
-            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243_5_23571-2-3/4 Crooked Creek.aiff",
+            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243-5-23571-2-3/4 Crooked Creek.aiff",
             "match_cost": 0,
             "title": "Crooked creek",
             "segmentid": "AQARR9QoRgt-1D7u48fRHG-MfMKkC1qS_0.00.00.000000-0.09.10.333333\"",
@@ -2648,13 +2648,13 @@
         },
         "_49013": {
             "album": "Perceptual",
-            "labelid": "Blue_Note_7243_5_23571-2-3",
+            "labelid": "Blue_Note_7243-5-23571-2-3",
             "trackname": "Patron saint of girls",
             "release_id": "16107",
             "session_full_id": "B8474",
             "session_id": "7973",
             "tune_id": "49013",
-            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243_5_23571-2-3/5 Patron Saint Of Girls.aiff",
+            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243-5-23571-2-3/5 Patron Saint Of Girls.aiff",
             "match_cost": 0,
             "title": "Patron saint of girls",
             "segmentid": "AQAE_UqSNFkSJQ4O_8i5FpqNXB9eTE9y_0.00.00.000000-0.02.40.826667\"",
@@ -2756,13 +2756,13 @@
         },
         "_49020": {
             "album": "Perceptual",
-            "labelid": "Blue_Note_7243_5_23571-2-3",
+            "labelid": "Blue_Note_7243-5-23571-2-3",
             "trackname": "Steadfast",
             "release_id": "16107",
             "session_full_id": "B8474",
             "session_id": "7973",
             "tune_id": "49020",
-            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243_5_23571-2-3/8 Steadfast.aiff",
+            "filename": "../illinois_audio/Dig That Lick/Blue_Note_7243-5-23571-2-3/8 Steadfast.aiff",
             "match_cost": 0,
             "title": "Steadfast",
             "segmentid": "AQAPuw0XKdGSJZieB390POHxBjxx6cgj_0.00.00.000000-0.08.21.266667\"",
@@ -12945,14 +12945,14 @@
         "_257127": {
             "album": "Random Thoughts",
             "labelid": "Mosaic_Select_MS-013",
-            "trackname": "Endangered species :  African American youth",
+            "trackname": "Endangered species: African American youth",
             "release_id": "114133",
             "session_full_id": "P6922",
             "session_id": "45729",
             "tune_id": "257127",
             "filename": "../illinois_audio/Dig That Lick/Mosaic_Select_MS-013/5 Endangered Species: African American Youth.aiff",
             "match_cost": 2,
-            "title": "Endangered species :  African American youth",
+            "title": "Endangered species: African American youth",
             "segmentid": "AQAOgUpSJUqUrAmaE_yLXLmMJ4xQQvyJ_0.00.00.000000-0.07.42.306667\"",
             "audioid": "AQAOgUpSJUqUrAmaE_yLXLmMJ4xQQvyJ",
             "musician_instrument": [
@@ -19531,7 +19531,7 @@
             "track_id": 687118
         },
         "_473": {
-            "album": "Chicago Revisited/Live At Joe Segal's Jazz Showcase",
+            "album": "Chicago Revisited: Live At Joe Segal's Jazz Showcase",
             "labelid": "Telarc_CD-83327",
             "trackname": "All the things you are",
             "release_id": "71649",
@@ -19567,7 +19567,7 @@
             "track_id": 687615
         },
         "_1444": {
-            "album": "Chicago Revisited/Live At Joe Segal's Jazz Showcase",
+            "album": "Chicago Revisited: Live At Joe Segal's Jazz Showcase",
             "labelid": "Telarc_CD-83327",
             "trackname": "Lullaby of Birdland",
             "release_id": "71649",
@@ -19603,7 +19603,7 @@
             "track_id": 687623
         },
         "_3663": {
-            "album": "Chicago Revisited/Live At Joe Segal's Jazz Showcase",
+            "album": "Chicago Revisited: Live At Joe Segal's Jazz Showcase",
             "labelid": "Telarc_CD-83327",
             "trackname": "Be my love",
             "release_id": "71649",
@@ -19639,7 +19639,7 @@
             "track_id": 687621
         },
         "_8718": {
-            "album": "Chicago Revisited/Live At Joe Segal's Jazz Showcase",
+            "album": "Chicago Revisited: Live At Joe Segal's Jazz Showcase",
             "labelid": "Telarc_CD-83327",
             "trackname": "Where are you ?",
             "release_id": "71649",
@@ -19675,7 +19675,7 @@
             "track_id": 687622
         },
         "_22647": {
-            "album": "Chicago Revisited/Live At Joe Segal's Jazz Showcase",
+            "album": "Chicago Revisited: Live At Joe Segal's Jazz Showcase",
             "labelid": "Telarc_CD-83327",
             "trackname": "Tater pie",
             "release_id": "71649",
@@ -19711,7 +19711,7 @@
             "track_id": 687617
         },
         "_115160": {
-            "album": "Chicago Revisited/Live At Joe Segal's Jazz Showcase",
+            "album": "Chicago Revisited: Live At Joe Segal's Jazz Showcase",
             "labelid": "Telarc_CD-83327",
             "trackname": "Dance to the lady",
             "release_id": "71649",
@@ -19747,7 +19747,7 @@
             "track_id": 687620
         },
         "_175011": {
-            "album": "Chicago Revisited/Live At Joe Segal's Jazz Showcase",
+            "album": "Chicago Revisited: Live At Joe Segal's Jazz Showcase",
             "labelid": "Telarc_CD-83327",
             "trackname": "Bellows",
             "release_id": "71649",

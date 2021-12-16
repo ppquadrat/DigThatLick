@@ -23,6 +23,7 @@ import dtlutil
 import logging
 MIN_LEVEL = logging.WARNING
 dtlutil.setup_log(MIN_LEVEL)
+#dtlutil.setup_log(logging.DEBUG)
 
 ##############################################################
 # create rdf graph
@@ -97,12 +98,17 @@ with open(DATA_CSV) as csvfile:
         logging.info("fprint: %s", fprint)
         logging.info("instrument: %s", instrument)
 
-        if not row[1].startswith("JE-"):
+#        if not row[1].startswith("JE-"):    # Klaus changed JE name to fprint
+        signalURI = find_signal_by_fingerprint(fprint)
+        if signalURI is not None:
             found += 1
-            if str(fprint) != "AQAHB6kSLR9xZRApLce5wy9-4U_QcIUi" and str(fprint) != "AQAIJVQSa-oSfFOCHw9yH8kyPujEOnij"\
-               and str(fprint) != "AQAKzkmoZVGihMPzINzgHL2OHw96vDeO" and str(fprint) != "AQALPkqULUqkRBPGeA7c5MF5PEGtIgyl"\
-               and str(fprint) != "AQANwUmSaIoeJUmg5cFzpFv14A2-nPjg" and str(fprint) != "AQAUq0kmJk5kPDA-QmV8PE-PTBfOow-8":
-                signalURI = find_signal_by_fingerprint(fprint)
+			# These tracks were causing mismatches previously; not sure why
+			# Polina blocked them here since they do have valid solos and the
+			# mismatches would need to be fixed elsewhere.
+            if True: #str(fprint) != "AQAHB6kSLR9xZRApLce5wy9-4U_QcIUi" and str(fprint) != "AQAIJVQSa-oSfFOCHw9yH8kyPujEOnij"\
+               #and str(fprint) != "AQAKzkmoZVGihMPzINzgHL2OHw96vDeO" and str(fprint) != "AQALPkqULUqkRBPGeA7c5MF5PEGtIgyl"\
+               #and str(fprint) != "AQANwUmSaIoeJUmg5cFzpFv14A2-nPjg" and str(fprint) != "AQAUq0kmJk5kPDA-QmV8PE-PTBfOow-8":
+#                signalURI = find_signal_by_fingerprint(fprint)
                 trackURI = g.value(subject=signalURI, predicate=MO.published_as, object=None, default=None, any=False)
                 track_title = g.value(subject=trackURI, predicate=DC.title, object=None, default=None, any=False)
                 logging.debug("track title: %s", track_title)

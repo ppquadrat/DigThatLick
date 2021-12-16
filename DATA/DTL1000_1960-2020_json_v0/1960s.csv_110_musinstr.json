@@ -13016,7 +13016,7 @@
             "track_id": 428923
         },
         "_4586": {
-            "album": "The Verve / Philips Dizzy Gillespie Small Group Sessions",
+            "album": "The Verve & Philips Dizzy Gillespie Small Group Sessions",
             "labelid": "Mosaic_234",
             "trackname": "Manha de carnaval",
             "release_id": "55150",
@@ -19345,7 +19345,7 @@
                     "musician_name": "James Moody",
                     "musician_id": 9070,
                     "instrument_name": "as",
-                    "instrument_id": 9
+                    "instrument_id": 10
                 },
                 {
                     "musician_name": "Kenny Barron",
@@ -20581,7 +20581,7 @@
                     "musician_name": "Quentin Jackson",
                     "musician_id": 9559,
                     "instrument_name": "tb",
-                    "instrument_id": 49
+                    "instrument_id": 1
                 },
                 {
                     "musician_name": "Urbie Green",
@@ -20725,7 +20725,7 @@
                     "musician_name": "Quentin Jackson",
                     "musician_id": 9559,
                     "instrument_name": "tb",
-                    "instrument_id": 49
+                    "instrument_id": 1
                 },
                 {
                     "musician_name": "Urbie Green",
@@ -22535,7 +22535,7 @@
                 },
                 {
                     "musician_name": "Ollie Mitchell",
-                    "musician_id": 38,
+                    "musician_id": 2548,
                     "instrument_name": "tp",
                     "instrument_id": 14
                 },
@@ -24350,7 +24350,7 @@
             "track_id": 632137
         },
         "_2111": {
-            "album": "The Verve / Philips Dizzy Gillespie Small Group Sessions",
+            "album": "The Verve & Philips Dizzy Gillespie Small Group Sessions",
             "labelid": "Mosaic_234",
             "trackname": "One note samba",
             "release_id": "55150",
@@ -24416,7 +24416,7 @@
             "track_id": 430234
         },
         "_6719": {
-            "album": "The Verve / Philips Dizzy Gillespie Small Group Sessions",
+            "album": "The Verve & Philips Dizzy Gillespie Small Group Sessions",
             "labelid": "Mosaic_234",
             "trackname": "Chega de saudade [No more blues]",
             "release_id": "55150",
@@ -24482,7 +24482,7 @@
             "track_id": 430232
         },
         "_52636": {
-            "album": "The Verve / Philips Dizzy Gillespie Small Group Sessions",
+            "album": "The Verve & Philips Dizzy Gillespie Small Group Sessions",
             "labelid": "Mosaic_234",
             "trackname": "Ole",
             "release_id": "55150",

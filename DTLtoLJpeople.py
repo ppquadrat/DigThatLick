@@ -8,11 +8,13 @@
 
 ##############################################################
 # paths
-#RDFfile = "TTL/JE_styles.ttl"
-#RDFnewfile = "TTL/JE_LODpeople.ttl"
 
-RDFfile = "TTL/ILL_styles.ttl"
-RDFnewfile = "TTL/ILL_LODpeople.ttl"
+if PROPERTY_PREFIX == 'je':
+	RDFfile = "TTL/JE_styles.ttl"
+	RDFnewfile = "TTL/JE_LODpeople.ttl"
+else:
+	RDFfile = "TTL/ILL_styles.ttl"
+	RDFnewfile = "TTL/ILL_LODpeople.ttl"
 
 NTfile = "DATA/LJpeople.nt"
 

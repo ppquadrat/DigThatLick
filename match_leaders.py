@@ -10,11 +10,12 @@
 ##############################################################
 # paths
 
-#RDFfile = 'TTL/JE_PyRDF.ttl'
-#RDFnewfile = 'TTL/JE_leaders.ttl'
-
-RDFfile = "TTL/ILL_bands.ttl"
-RDFnewfile = "TTL/ILL_leaders.ttl"
+if PROPERTY_PREFIX == "je":
+	RDFfile = 'TTL/JE_PyRDF.ttl'
+	RDFnewfile = 'TTL/JE_leaders.ttl'
+else:
+	RDFfile = "TTL/ILL_bands.ttl"
+	RDFnewfile = "TTL/ILL_leaders.ttl"
 
 
 ##############################################################
