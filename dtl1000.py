@@ -72,6 +72,8 @@ def get_performer_fprints(uri):
     fprints = []
     for performance in g.subjects(MO.performer, uri):
         fprints = fprints + get_performance_fprints(performance)
+    for performance in g.subjects(DTL.solo_performer, uri):
+        fprints = fprints + get_soloperformance_fprints(performance)
     for performance in g.subjects(DTL.possible_solo_performer, uri):
         fprints = fprints + get_soloperformance_fprints(performance)
     return(list(set(fprints)))
