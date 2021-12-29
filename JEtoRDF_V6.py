@@ -976,7 +976,7 @@ class JEtoRDF:
             # correct olo:indexx to olo:index
             logging.info("\nCorrecting olo:indexx to olo:index ...")
             self.indexx2index()
-            logging.info("Writing RDF to: %s ...", rdffilename)
+            logging.info("Writing RDF to: %s ...", rdffilename_tmp)
             write_rdf_to_file(self.g, rdffilename, rdffilename_tmp)
             logging.info("done")
             #logging.debug(str(g.serialize(format='turtle')))
@@ -991,19 +991,3 @@ dtlutil.read_in_rdf(g, rdffilename)
 RDFcreator = JEtoRDF(g, g_temp)
 RDFcreator.create_rdf()
 
-
-
-
-
-
-        
-
-
-        
-
-    
-
-    
-                    
-
-    

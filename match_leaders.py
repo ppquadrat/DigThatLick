@@ -11,11 +11,11 @@
 # paths
 
 if PROPERTY_PREFIX == "je":
-	RDFfile = 'TTL/JE_PyRDF.ttl'
-	RDFnewfile = 'TTL/JE_leaders.ttl'
+    RDFfile = 'TTL/JE_PyRDF.ttl'
+    RDFnewfile = 'TTL/JE_leaders.ttl'
 else:
-	RDFfile = "TTL/ILL_bands.ttl"
-	RDFnewfile = "TTL/ILL_leaders.ttl"
+    RDFfile = "TTL/ILL_bands.ttl"
+    RDFnewfile = "TTL/ILL_leaders.ttl"
 
 
 ##############################################################
@@ -23,7 +23,8 @@ import dtlutil
 
 # logging
 import logging
-MIN_LEVEL = logging.INFO
+#MIN_LEVEL = logging.INFO
+MIN_LEVEL = logging.DEBUG
 dtlutil.setup_log(MIN_LEVEL)
 
 # create rdf graph
@@ -50,12 +51,12 @@ def find_band_musicians(bandURI):
             musician = g.value(performerURI, DTL.musician)
             if not musician in musicianURIs:
                 musicianURIs.append(musician)
-                musicianname = g.value(musician, FOAF.name)
+                #musicianname = g.value(musician, FOAF.name)
                 #logging.debug(musicianname + ", " + str(musician))
     if len(musicianURIs) == 0:
         logging.warning("no musicians found for band %s", band_name)
     return musicianURIs
-        
+ 
 
 ##def find_band_musicians(bandURI):
 ##    band_name = g.value(subject=bandURI, predicate=FOAF.name, object=None, default=None, any=True)

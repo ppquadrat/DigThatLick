@@ -201,22 +201,22 @@ with open(PatchMetadataFile, 'r') as csvfile:
                     if ',' in musician:
                         # this is a list of possible_solo_performers
                         logging.info("adding possible solo performers %s playing %s", musician, instrument)
-                        solo_performer = g.value(solo_performance_uri, DTL.solo_performer, default=None)                      
+                        solo_performer = g.value(solo_performance_uri, DTL.solo_performer, default=None)
                         remove_possible_solo_performers(solo_performance_uri)
                         remove_solo_performer(solo_performer, solo_performance_uri)
                         musicians = musician.split(',')
                         for musician in musicians:
                             musician = musician.strip()
                             # find or create musician
-                            musicianURI = get_musician(musician)                                      
+                            musicianURI = get_musician(musician)
                             # check if performer exists, create new performer if necessary
                             performerURI = get_performer(performanceURI, musicianURI, instrumentURI)
     
-                            add_possible_solo_performer(performanceURI, solo_performance_uri, musicianURI, instrumentURI)       
+                            add_possible_solo_performer(performanceURI, solo_performance_uri, musicianURI, instrumentURI)
                         
-                    else:  
+                    else: 
                         # single musician
-                        musicianURI = get_musician(musician)
+                        musicianURI = get_musician(musician.strip())
                         performerURI = get_performer(performanceURI, musicianURI, instrumentURI)
   
                         # add solo performer
